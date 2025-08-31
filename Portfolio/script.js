@@ -218,134 +218,95 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// services modal
+// -------- Services Modal --------
+let servicesMap = {};
 
-
-// Load services.json as an object keyed by id
-async function loadServicesMap() {
-    try {
-        const res = await fetch('services.json');
-        if (!res.ok) {
-            console.error('Failed to fetch services.json:', res.status, res.statusText);
-            return null;
-        }
-        const data = await res.json();
-        return data; // expected shape: { "amazon": {...}, "web-dev": {...} }
-    } catch (err) {
-        console.error('Error parsing services.json:', err);
-        return null;
-    }
+// Load services.json once
+async function loadServices() {
+  try {
+    const res = await fetch("services.json");
+    servicesMap = await res.json();
+  } catch (err) {
+    console.error("❌ Error loading services.json", err);
+  }
 }
 
-// Service modal
 function openServiceModal(service) {
-    if (!service) return;
+  const modal = document.getElementById("service-modal");
 
-    const titleEl = document.getElementById('service-title');
-    const descEl = document.getElementById('service-description');
-    const featsEl = document.getElementById('service-features');
-    const modal = document.getElementById('service-modal');
-    const modalContent = modal?.querySelector('.service-modal-content');
+  const titleEl = modal.querySelector("#service-title");
+  const subtitleEl = modal.querySelector("#service-subtitle");
+  const descEl = modal.querySelector("#service-description");
+  const sectionsEl = modal.querySelector("#service-sections");
+  const driversEl = modal.querySelector("#service-drivers");
 
-    if (titleEl) titleEl.textContent = service.title || '';
-    if (descEl) descEl.textContent = service.description || '';
+  if (!titleEl || !subtitleEl || !descEl || !sectionsEl || !driversEl) {
+    console.error("❌ Service modal elements missing in HTML");
+    return;
+  }
 
-    // 🔹 Build services sections
-    if (featsEl) {
-        featsEl.innerHTML = `<h1>${service.title2}</h1>`;
+  // Fill header info
+  titleEl.textContent = service.title || "";
+  subtitleEl.textContent = service.subtitle || "";
+  descEl.textContent = service.description || "";
 
-       if (service.services) {
-    const gridWrapper = document.createElement("div");
-    gridWrapper.classList.add("service-blocks"); // GRID WRAPPER
+  // Fill services sections
+  sectionsEl.innerHTML = "";
+  if (service.services && Array.isArray(service.services)) {
+    sectionsEl.innerHTML = service.services.map(s => `
+      <div class="modal-service-block">
+        <h5>${s.icon || ""} ${s.category}</h5>
+        <ul>
+          ${s.items.map(item => `<li>${item}</li>`).join("")}
+        </ul>
+      </div>
+    `).join("");
+  }
 
-    service.services.forEach(section => {
-        const block = document.createElement('div');
-        block.classList.add('modal-service-card');
-
-        block.innerHTML = `
-          <div class="service-card-header">
-            <span class="service-icon">${section.icon || ''}</span>
-            <h3 class="service-category">${section.category}</h3>
+  // Fill drivers
+  driversEl.innerHTML = "";
+  if (service.drivers && Array.isArray(service.drivers)) {
+    driversEl.innerHTML = `
+      <h4>Key Drivers</h4>
+      <div class="modal-drivers-grid">
+        ${service.drivers.map(d => `
+          <div class="driver-card">
+            <span class="driver-icon">${d.icon || ""}</span>
+            <h5>${d.title}</h5>
+            <p>${d.description}</p>
           </div>
-          <ul class="service-list">
-            ${section.items.map(item => `<li> ${item}</li>`).join("")}
-          </ul>
-        `;
+        `).join("")}
+      </div>
+    `;
+  }
 
-        gridWrapper.appendChild(block);
-    });
-
-    featsEl.appendChild(gridWrapper); // add the grid to modal
+  // Show modal
+  modal.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
-    }
-
-    // 🔹 Add drivers (optional bottom section)
-    if (service.drivers) {
-        const driversWrapper = document.createElement('div');
-        driversWrapper.classList.add('drivers-grid');
-        driversWrapper.innerHTML = `
-            <h3 class="drivers-title">${service.title3}</h3>
-            <div class="drivers-cards">
-                ${service.drivers.map(d => `
-                    <div class="driver-card">
-                        <div class="driver-icon">${d.icon}</div>
-                        <div class="driver-text">
-                        <h4>${d.title}</h4>
-                        <p>${d.description}</p>
-                        </div>
-                    </div>
-                `).join("")}
-            </div>
-        `;
-        featsEl.appendChild(driversWrapper);
-    }
-
-    // CHANGE THEME ACCORDING TO SERVICE 
-    if (modalContent) {
-        modalContent.classList.remove('theme-webdev', 'theme-design', 'theme-marketing');
-        if (service.theme) {
-            modalContent.classList.add(`theme-${service.theme}`);
-        }
-    }
-
-    if (modal) modal.style.display = 'flex';
-    document.body.style.overflow = "hidden";
+// Close modal
+function closeServiceModal() {
+  document.getElementById("service-modal").style.display = "none";
+  document.body.style.overflow = "auto"; // re-enable scroll
 }
 
+// Bind events after DOM loads
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadServices();
 
-// Attach click handlers to .service-card
-document.querySelectorAll('.service-card').forEach(card => {
-    card.addEventListener('click', async () => {
-        const serviceId = card.getAttribute('data-service');
-        if (!serviceId) {
-            console.warn('service-card missing data-service attribute', card);
-            return;
-        }
-
-        const servicesMap = await loadServicesMap();
-        if (!servicesMap) return;
-
-        const service = servicesMap[serviceId]; // direct lookup
-        if (!service) {
-            console.warn('No service found for id:', serviceId, 'Available keys:', Object.keys(servicesMap));
-            return;
-        }
-
-        openServiceModal(service);
+  // Attach click events to cards
+  document.querySelectorAll(".service-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const key = card.getAttribute("data-service");
+      const service = servicesMap[key];
+      if (service) openServiceModal(service);
     });
+  });
 
-    // close the modal
-    document.querySelector(".modal-close").addEventListener("click", () => {
-        document.getElementById("service-modal").style.display = "none";
-        document.body.style.overflow = "auto";
-    });
-    const serviceModal = document.getElementById("service-modal");
-
-    serviceModal.addEventListener("click", (e) => {
-        if (e.target === serviceModal) {
-            serviceModal.style.display = "none";
-            document.body.style.overflow = "auto";
-        }
-    });
+  // Close buttons & outside click
+  document.getElementById("service-modal-close").addEventListener("click", closeServiceModal);
+  document.getElementById("service-modal").addEventListener("click", (e) => {
+    if (e.target.id === "service-modal") closeServiceModal();
+  });
 });

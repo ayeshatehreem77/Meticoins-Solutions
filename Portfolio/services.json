@@ -108,5 +108,305 @@
         "icon": "📊"
       }
     ]
+  },
+
+  "digital_marketing": {
+    "title": "Digital Marketing & Online Growth Solutions",
+    "subtitle": "Data-Driven Marketing Agency",
+    "description": "We help businesses build their online presence, attract targeted customers, and drive conversions through powerful digital marketing strategies across search, social, and content.",
+    "services": [
+      {
+        "category": "Search Engine Optimization (SEO)",
+        "items": [
+          "On-page & off-page optimization",
+          "Keyword research & content strategy",
+          "Technical SEO audits"
+        ],
+        "icon": "🔍"
+      },
+      {
+        "category": "Social Media Marketing",
+        "items": [
+          "Campaign strategy & execution",
+          "Content creation & posting schedules",
+          "Community management & engagement"
+        ],
+        "icon": "📱"
+      },
+      {
+        "category": "Paid Advertising (PPC)",
+        "items": [
+          "Google Ads & Bing Ads management",
+          "Social media paid campaigns",
+          "Conversion optimization strategies"
+        ],
+        "icon": "💡"
+      },
+      {
+        "category": "Content Marketing",
+        "items": [
+          "Blog writing & guest posting",
+          "Video & infographic creation",
+          "Email campaigns & newsletters"
+        ],
+        "icon": "✍️"
+      },
+      {
+        "category": "Analytics & Reporting",
+        "items": [
+          "Performance dashboards",
+          "Audience behavior insights",
+          "Monthly reporting & strategy review"
+        ],
+        "icon": "📊"
+      }
+    ],
+    "drivers": [
+      {
+        "title": "Brand Visibility",
+        "description": "Expand your reach across search engines and social platforms.",
+        "icon": "🌐"
+      },
+      {
+        "title": "Lead Generation",
+        "description": "Turn traffic into qualified leads with optimized campaigns.",
+        "icon": "🎯"
+      },
+      {
+        "title": "Content Strategy",
+        "description": "Build authority through valuable and engaging content.",
+        "icon": "📝"
+      },
+      {
+        "title": "Performance Tracking",
+        "description": "Stay on top of ROI with detailed metrics and KPIs.",
+        "icon": "📈"
+      }
+    ]
+  },
+
+  "ecommerce": {
+    "title": "E-Commerce Store Development & Management",
+    "subtitle": "Complete Online Selling Solutions",
+    "description": "From building your online store to managing operations, we offer end-to-end e-commerce solutions that help brands scale and sell globally.",
+    "services": [
+      {
+        "category": "Store Setup",
+        "items": [
+          "Custom website development",
+          "Shopify, WooCommerce & Magento setups",
+          "Payment gateway integration"
+        ],
+        "icon": "🛍️"
+      },
+      {
+        "category": "Product Management",
+        "items": [
+          "Bulk product upload",
+          "Inventory & stock control",
+          "Category & variation setup"
+        ],
+        "icon": "📦"
+      },
+      {
+        "category": "Customer Experience",
+        "items": [
+          "UX/UI optimized storefronts",
+          "Mobile-friendly design",
+          "Seamless checkout process"
+        ],
+        "icon": "💻"
+      },
+      {
+        "category": "Marketing & Sales",
+        "items": [
+          "Email campaigns & automation",
+          "Cross-sell & upsell strategies",
+          "Discounts, vouchers & loyalty programs"
+        ],
+        "icon": "📢"
+      },
+      {
+        "category": "Analytics & Operations",
+        "items": [
+          "Sales tracking & reporting",
+          "Customer behavior analysis",
+          "Fulfillment & logistics optimization"
+        ],
+        "icon": "📊"
+      }
+    ],
+    "drivers": [
+      {
+        "title": "Seamless Storefronts",
+        "description": "Deliver a smooth shopping experience to boost conversions.",
+        "icon": "🛒"
+      },
+      {
+        "title": "Automation",
+        "description": "Save time with automated operations and fulfillment systems.",
+        "icon": "⚙️"
+      },
+      {
+        "title": "Sales Optimization",
+        "description": "Maximize profits with targeted promotions and smart pricing.",
+        "icon": "💰"
+      },
+      {
+        "title": "Global Reach",
+        "description": "Expand into international markets with scalable solutions.",
+        "icon": "🌍"
+      }
+    ]
+  },
+
+  "tiktok": {
+    "title": "TikTok Marketing & Viral Growth",
+    "subtitle": "Creative TikTok Campaigns",
+    "description": "We create viral-worthy TikTok campaigns and strategies that help brands engage with Gen Z, build a community, and go viral with trending content.",
+    "services": [
+      {
+        "category": "Content Strategy",
+        "items": [
+          "Trending challenges & concepts",
+          "Hashtag research",
+          "Storyboarding & scripts"
+        ],
+        "icon": "🎬"
+      },
+      {
+        "category": "Content Creation",
+        "items": [
+          "Short-form videos",
+          "UGC (User Generated Content)",
+          "Influencer collaborations"
+        ],
+        "icon": "📹"
+      },
+      {
+        "category": "Advertising Campaigns",
+        "items": [
+          "In-feed ads",
+          "Branded content & effects",
+          "Targeted audience campaigns"
+        ],
+        "icon": "📢"
+      },
+      {
+        "category": "Community Growth",
+        "items": [
+          "Follower engagement strategies",
+          "Comment & DM management",
+          "Live session hosting"
+        ],
+        "icon": "🤝"
+      },
+      {
+        "category": "Analytics & Optimization",
+        "items": [
+          "Content performance reports",
+          "Follower growth tracking",
+          "A/B testing of ads"
+        ],
+        "icon": "📊"
+      }
+    ],
+    "drivers": [
+      {
+        "title": "Viral Content",
+        "description": "Ride trends and create shareable videos that spread fast.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Community Building",
+        "description": "Engage audiences with authentic, relatable storytelling.",
+        "icon": "👥"
+      },
+      {
+        "title": "Brand Awareness",
+        "description": "Increase visibility through creative, high-impact campaigns.",
+        "icon": "🌟"
+      },
+      {
+        "title": "Performance Tracking",
+        "description": "Measure growth with precise analytics and engagement metrics.",
+        "icon": "📈"
+      }
+    ]
+  },
+
+  "graphic_design": {
+    "title": "Graphic Design & Creative Branding",
+    "subtitle": "Visual Design Agency",
+    "description": "We craft stunning visuals and brand assets that tell your story, build trust, and create a strong identity across digital and print platforms.",
+    "services": [
+      {
+        "category": "Branding & Identity",
+        "items": [
+          "Logo design",
+          "Color palette & typography",
+          "Brand guidelines"
+        ],
+        "icon": "🎨"
+      },
+      {
+        "category": "Digital Design",
+        "items": [
+          "Social media graphics",
+          "Web banners & sliders",
+          "Email templates"
+        ],
+        "icon": "💻"
+      },
+      {
+        "category": "Print Design",
+        "items": [
+          "Business cards & brochures",
+          "Flyers & posters",
+          "Packaging design"
+        ],
+        "icon": "🖨️"
+      },
+      {
+        "category": "Creative Content",
+        "items": [
+          "Infographics",
+          "Custom illustrations",
+          "Presentation design"
+        ],
+        "icon": "🖌️"
+      },
+      {
+        "category": "Motion Graphics",
+        "items": [
+          "Animated logos",
+          "Promo videos",
+          "Explainer animations"
+        ],
+        "icon": "🎥"
+      }
+    ],
+    "drivers": [
+      {
+        "title": "Strong Branding",
+        "description": "Establish a recognizable and trustworthy identity.",
+        "icon": "🏷️"
+      },
+      {
+        "title": "Engaging Visuals",
+        "description": "Capture audience attention with creative designs.",
+        "icon": "✨"
+      },
+      {
+        "title": "Consistency",
+        "description": "Maintain brand coherence across all platforms.",
+        "icon": "📐"
+      },
+      {
+        "title": "Conversion Focus",
+        "description": "Use design to drive action and improve engagement rates.",
+        "icon": "📊"
+      }
+    ]
   }
 }

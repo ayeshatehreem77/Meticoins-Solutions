@@ -197,7 +197,7 @@
                 <p class="section-subtitle">Meticon Solutions helps eCommerce brands launch, grow, and scale with
                     end-to-end services tailored for global success.</p>
                 <div class="services-grid">
-                    <article class="service-card" data-service="web-dev">
+                    <article class="service-card" data-service="ecommerce">
                         <div class="service-icon">🛍️</div>
                         <h3>eCommerce (Shopify)</h3>
                         <ul class="service-features">
@@ -208,7 +208,7 @@
                             <li>Conversion-focused user experience</li>
                         </ul>
                     </article>
-                    <article class="service-card" data-service="uiux">
+                    <article class="service-card" data-service="tiktok">
                         <div class="service-icon">📱</div>
                         <h3>TikTok Shop</h3>
                         <ul class="service-features">
@@ -218,7 +218,7 @@
                             <li>High-converting TikTok ad campaign management</li>
                         </ul>
                     </article>
-                    <article class="service-card" data-service="growth">
+                    <article class="service-card" data-service="digital-marketing">
                         <div class="service-icon">🎯</div>
                         <h3>Digital Marketing</h3>
                         <ul class="service-features">
@@ -238,7 +238,7 @@
                             <li>Product catalog SEO, content design & PPC campaigns</li>
                         </ul>
                     </article>
-                    <article class="service-card" data-service="growth">
+                    <article class="service-card" data-service="graphic-design">
                         <div class="service-icon">🎨</div>
                         <h3>Graphic Design</h3>
                         <ul class="service-features">
@@ -254,13 +254,16 @@
 
 
         <!-- Service Modal -->
-        <div id="service-modal" class="modal-overlay" style="display:none;">
-            <div class="modal-content">
-                <button class="modal-close">&times;</button>
-                <img id="service-image" alt="Service" />
-                <h3 id="service-title"></h3>
+        <div id="service-modal" class="service-modal-overlay modal fade" style="display:none;">
+            <div class="service-modal-content">
+                <button id="service-modal-close" class="modal-close btn-close ms-auto" >&times;</button>
+
+                <h2 id="service-title"></h2>
+                <h4 id="service-subtitle"></h4>
                 <p id="service-description"></p>
-                <ul id="service-features"></ul>
+
+                <div id="service-sections"></div>
+                <div id="service-drivers"></div>
             </div>
         </div>
 
