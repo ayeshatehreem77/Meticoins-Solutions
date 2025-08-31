@@ -1,0 +1,112 @@
+{
+  "amazon": {
+    "title": "Amazon Brand Growth & Private Label Solutions",
+    "subtitle": "Full-Service Amazon Agency",
+    "description": "We are a full-service Amazon agency helping brands and private label sellers launch, manage, and scale their business on Amazon. From company setup to global expansion, our team handles everything end-to-end so you can focus on growth while we manage the operations.",
+    "services": [
+      {
+        "category": "Business Setup & Compliance",
+        "items": [
+          "LLC & Trademark registration",
+          "Amazon Seller Account setup (Individual & LLC)",
+          "Brand Registry & compliance management"
+        ],
+        "icon": "📝"
+      },
+      {
+        "category": "Product Research & Sourcing",
+        "items": [
+          "Data-driven product research & validation",
+          "Profitability & competitor analysis",
+          "Sourcing & supplier negotiations"
+        ],
+        "icon": "🔍"
+      },
+      {
+        "category": "Catalog & Listing Optimization",
+        "items": [
+          "Catalog setup with variations",
+          "SEO-optimized titles, bullets & descriptions",
+          "Backend keyword indexing"
+        ],
+        "icon": "📑"
+      },
+      {
+        "category": "Brand Content & Creative Design",
+        "items": [
+          "A+ Content / EBC creation",
+          "Amazon Storefront design",
+          "High-quality infographics, lifestyle images & video"
+        ],
+        "icon": "🎨"
+      },
+      {
+        "category": "SEO & Organic Growth",
+        "items": [
+          "Advanced keyword research",
+          "Ranking optimization strategies",
+          "Ongoing listing performance improvements"
+        ],
+        "icon": "📈"
+      },
+      {
+        "category": "PPC & Advertising Management",
+        "items": [
+          "Sponsored Products, Brands & Display campaigns",
+          "Advanced targeting & negative keyword strategies",
+          "Daily campaign optimization for maximum ROI"
+        ],
+        "icon": "💡"
+      },
+      {
+        "category": "Product Launch & Ranking",
+        "items": [
+          "Complete launch roadmaps",
+          "Review generation strategies",
+          "Organic ranking campaigns"
+        ],
+        "icon": "🚀"
+      },
+      {
+        "category": "Inventory & Operations Management",
+        "items": [
+          "Demand forecasting & restock planning",
+          "FBA/FBM inventory management",
+          "Cost optimization & logistics support"
+        ],
+        "icon": "📦"
+      },
+      {
+        "category": "Account Growth & Expansion",
+        "items": [
+          "Account health monitoring & appeals",
+          "Performance analytics & reporting",
+          "Expansion into EU, UK, and global marketplaces"
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "drivers": [
+      {
+        "title": "Product Catalog Management",
+        "description": "Keeps your business foundation strong with accurate, optimized listings.",
+        "icon": "🛒"
+      },
+      {
+        "title": "Design & Brand Experience",
+        "description": "Builds trust and increases conversions through premium visuals.",
+        "icon": "🎨"
+      },
+      {
+        "title": "SEO Optimization",
+        "description": "Ensures long-term visibility with better rankings and organic traffic.",
+        "icon": "🔑"
+      },
+      {
+        "title": "PPC Advertising & Growth",
+        "description": "Drives sales momentum and boosts product ranking through paid ads.",
+        "icon": "📊"
+      }
+    ]
+  }
+}

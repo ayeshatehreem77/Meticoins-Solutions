@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="BYTE BUILD TECH - We build more than websites, we build growth. Custom web development, UI/UX design, and growth solutions for businesses." />
+    <meta name="keywords"
+        content="web development, custom websites, UI/UX design, growth solutions, React.js, Node.js, digital transformation" />
+    <meta name="author" content="BYTE BUILD TECH" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="BYTE BUILD TECH – We build more than websites — we build growth" />
+    <meta property="og:description"
+        content="Custom web development, UI/UX design, and growth solutions for businesses. We build fast, responsive, and scalable digital solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bytebuildtech.com" />
+    <meta property="og:image" content="Assets/logo.jpeg" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BYTE BUILD TECH – We build more than websites — we build growth" />
+    <meta name="twitter:description"
+        content="Custom web development, UI/UX design, and growth solutions for businesses." />
+    <meta name="twitter:image" content="Assets/logo.jpeg" />
+
+    <title>Meticon Solutions – We offer more than service — we ensure support</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="Assets/logo.jpeg" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;500&display=swap"
+        as="style" />
+    <link rel="preload" href="Assets/bg.mp4" as="video" type="video/mp4" />
+
+    <!-- Stylesheets -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- lottie background animation -->
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="container">
+            <nav role="navigation" aria-label="Main navigation">
+                <div class="logo">
+                    <a href="#hero" aria-label="BYTE BUILD TECH - Home">
+                        <div class="logo-icon">
+                            <img id="logo-img" src="Assets/logo.jpeg" alt="BYTE BUILD TECH Logo" width="40"
+                                height="40" />
+                        </div>
+                        <div class="logo-text">Meticon Solutions</div>
+                    </a>
+                </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+                    aria-controls="nav-links">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <div class="nav-links" id="nav-links" role="menubar">
+                    <a href="#about" role="menuitem">About</a>
+                    <a href="#process" role="menuitem">Process</a>
+                    <a href="#platforms" role="menuitem">Platforms</a>
+                    <a href="#services" role="menuitem">Services</a>
+                    <a href="#team" role="menuitem">Team</a>
+                    <a href="#testimonials" role="menuitem">Testimonials</a>
+                    <a href="#faq" role="menuitem">FAQ</a>
+                    <a href="#contact" role="menuitem">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="hero" class="hero" aria-label="Hero section">
+            <div class="hero-bg">
+                <!-- Animated Gradient + Cubes -->
+                <div class="background">
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                    <div class="cube"></div>
+                </div>
+
+                <!-- Optional overlay for readability -->
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-content" data-aos="fade-down">
+                <h1>Meticon Solutions</h1>
+                <p>Global E-Commerce Innovators | Transforming Online Vision into Profit Connect Now</p>
+                <a href="#contact" class="btn-primary">Let's Talk</a>
+            </div>
+        </section>
+
+
+        <section id="about" class="about" data-aos="fade-up" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">About Us</h2>
+                <div class="about-content ">
+                    <p>At Meticon Solutions, we empower eCommerce brands to grow through impactful graphic design,
+                        targeted digital marketing, and full-service brand support. </p>
+
+                    <p>Our expertise spans Amazon Private Label, TikTok Shop, and web development, allowing us to
+                        create, launch, and scale brands across multiple platforms. </p>
+
+                    <p>From building high-converting visuals to crafting complete online storefronts, we blend
+                        creativity, strategy, and technology to help you stand out and succeed in today’s digital
+                        marketplace.</p>
+                </div>
+
+                <div class="about-features" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-item">
+                        <div class="feature-icon">🚀</div>
+                        <h4>Growth-Focused</h4>
+                        <p>Represents scaling brands, increasing sales, and achieving measurable success.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎨</div>
+                        <h4>Creative Excellence</h4>
+                        <p>Symbolizes high-quality design, branding, and visual storytelling.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🌍</div>
+                        <h4>Global Reach</h4>
+                        <p>Reflects your ability to help brands expand internationally across Amazon, TikTok Shop, and
+                            other platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Why Us  -->
+
+        <section class="why-choose-us " id="why-choose" aria-labelledby="why-choose-title">
+            <div class="container my-5">
+                <h2 id="why-choose-title" class="section-title">Why Brands Choose Meticon Solutions</h2>
+                <p class="section-subtitle">What sets us apart from the competition</p>
+                <div class="choose-grid" role="list" aria-label="Reasons to choose BYTE BUILD TECH">
+                    <article class="choose-card" data-aos="fade-up" role="listitem">
+                        <span class="choose-icon" aria-hidden="true">🌍</span>
+                        <h3>Global Vision, Local Precision</h3>
+                        <p>We understand diverse markets worldwide while tailoring strategies to fit local consumer
+                            behavior.</p>
+                    </article>
+                    <article class="choose-card choose-card-2" data-aos="fade-up" data-aos-delay="100" role="listitem">
+                        <span class="choose-icon" aria-hidden="true">⚡</span>
+                        <h3>One Team. Every Solution.</h3>
+                        <p>From product research to full-scale marketing, our unified team manages all aspects of your
+                            e-commerce growth.</p>
+                    </article>
+                    <article class="choose-card" data-aos="fade-up" data-aos-delay="200" role="listitem">
+                        <span class="choose-icon" aria-hidden="true">📈</span>
+                        <h3>Proven Results. Predictable Growth</h3>
+                        <p>Data-driven strategies that deliver consistent, measurable results.</p>
+                    </article>
+                    <article class="choose-card" data-aos="fade-up" data-aos-delay="300" role="listitem">
+                        <span class="choose-icon" aria-hidden="true">💡</span>
+                        <h3> Innovation That Leads</h3>
+                        <p>We adopt the latest tools, trends, and creative approaches to keep your brand ahead of the
+                            competition.</p>
+                    </article>
+                    <article class="choose-card" data-aos="fade-up" data-aos-delay="300" role="listitem">
+                        <span class="choose-icon" aria-hidden="true">🤝</span>
+                        <h3> Your Brand, Our Priority</h3>
+                        <p>Every decision is made with your brand’s long-term success in mind.</p>
+                    </article>
+                    <article class="choose-card" data-aos="fade-up" data-aos-delay="300" role="listitem">
+                        <span class="choose-icon" aria-hidden="true">♻️</span>
+                        <h3>Ongoing Support</h3>
+                        <p>Dedicated guidance and optimization to ensure your brand continues to thrive.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="services" data-aos="fade-up" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Our Services</h2>
+                <p class="section-subtitle">Meticon Solutions helps eCommerce brands launch, grow, and scale with
+                    end-to-end services tailored for global success.</p>
+                <div class="services-grid">
+                    <article class="service-card" data-service="web-dev">
+                        <div class="service-icon">🛍️</div>
+                        <h3>eCommerce (Shopify)</h3>
+                        <ul class="service-features">
+                            <li>Market research & winning product selection</li>
+                            <li>Data-driven, analysis-based launches</li>
+                            <li>Fully optimized, responsive store design</li>
+                            <li>Secure payment gateway & shipping setup</li>
+                            <li>Conversion-focused user experience</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" data-service="uiux">
+                        <div class="service-icon">📱</div>
+                        <h3>TikTok Shop</h3>
+                        <ul class="service-features">
+                            <li>Complete TikTok Shop setup & management</li>
+                            <li>Product research, influencer, & UGC content campaigns</li>
+                            <li>Product optimization for TikTok trends</li>
+                            <li>High-converting TikTok ad campaign management</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" data-service="growth">
+                        <div class="service-icon">🎯</div>
+                        <h3>Digital Marketing</h3>
+                        <ul class="service-features">
+                            <li>TikTok, Facebook, Instagram & Google Ads</li>
+                            <li>Advanced audience targeting & segmentation</li>
+                            <li>Creative testing & performance optimization</li>
+                            <li>Sales-focused funnel strategies</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" data-service="amazon">
+                        <div class="service-icon">🛒</div>
+                        <h3>Amazon</h3>
+                        <ul class="service-features">
+                            <li>Product launches & brand building</li>
+                            <li>Custom Amazon Brand Store creation</li>
+                            <li>Complete store management solutions</li>
+                            <li>Product catalog SEO, content design & PPC campaigns</li>
+                        </ul>
+                    </article>
+                    <article class="service-card" data-service="growth">
+                        <div class="service-icon">🎨</div>
+                        <h3>Graphic Design</h3>
+                        <ul class="service-features">
+                            <li>Custom product packaging & label design</li>
+                            <li>High-impact brand images & infographics</li>
+                            <li>Brand logo & complete visual identity</li>
+                            <li>Marketing creatives for ads & social media</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Service Modal -->
+        <div id="service-modal" class="modal-overlay" style="display:none;">
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <img id="service-image" alt="Service" />
+                <h3 id="service-title"></h3>
+                <p id="service-description"></p>
+                <ul id="service-features"></ul>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- platforms sections -->
+        <section class="tech-stack" id="platforms" aria-labelledby="tech-title">
+            <div class="container">
+                <h2 id="tech-title" class="section-title">Platforms we work on</h2>
+                <p class="section-subtitle">We empower brands to grow across top eCommerce and digital platforms.</p>
+                <div class="swiper tech-carouse" aria-label="Technology showcase">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide tech-card">
+                            <img src="Assets/amazon-svgrepo-com.svg" alt="React.js logo" width="60" height="60"
+                                loading="lazy" />
+                            <p>Amazon</p>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <img src="Assets/shopify.svg" alt="Next.js logo" width="60" height="60" loading="lazy" />
+                            <p>Shopify</p>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <img src="Assets\meta.svg" alt="Node.js logo" width="60" height="60" loading="lazy" />
+                            <p>Meta</p>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <img src="Assets/tiktok.svg" alt="Nest.js logo" width="60" height="60" loading="lazy" />
+                            <p>TikTok</p>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <img src="Assets/wordpress.svg" alt="PostgreSQL logo" width="60" height="60"
+                                loading="lazy" />
+                            <p>Wordpress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Team Section-->
+
+        <section class="team" id="team" data-aos="fade-up" aria-labelledby="team-title">
+            <div class="container">
+                <h2 id="team-title" class="section-title">Meet Our Team</h2>
+                <p class="section-subtitle">The talented minds behind your success</p>
+
+                <div class="team-grid">
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👨‍💼</div>
+                        </div>
+                        <h3>Muhammad Muzamil</h3>
+                        <p class="member-role">Co-Founder</p>
+                        <p class="member-bio">Amazon and Ecommerce specialist with 4+ Years Experience.</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👨‍💻</div>
+                        </div>
+                        <h3>Umar Anas</h3>
+                        <p class="member-role">Co Founder</p>
+                        <p class="member-bio">Marketing Specialist From Meta, Tiktok and Amazon Marketing with 5+ Years
+                            Experience </p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👨‍💼</div>
+                        </div>
+                        <h3>Ahsan Raza</h3>
+                        <p class="member-role">Graphics Designer</p>
+                        <p class="member-bio">Graphic Designer with 4+ Years Experience in Brand Identity & Digital
+                            Assets.</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👨‍💼</div>
+                        </div>
+                        <h3>Ahtesham</h3>
+                        <p class="member-role">Web developer</p>
+                        <p class="member-bio">Add info...</p>
+                    </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👩‍💻</div>
+                        </div>
+                        <h3>Afshan</h3>
+                        <p class="member-role">Tiktok Shop Expert</p>
+                        <p class="member-bio">E-commerce & TikTok Shop Specialist with 5+ Years Experience in Store
+                            Optimization & Ad Campaigns.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Process Section -->
+        <section class="process" id="process" data-aos="fade-up" aria-labelledby="process-title">
+            <div class="container">
+                <h2 id="process-title" class="section-title">How We Work</h2>
+                <div class="process-grid">
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step-number">01</div>
+                        <h3>Discovery</h3>
+                        <p>We start by understanding your business goals, target audience, and unique requirements to
+                            create a tailored strategy.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step-number">02</div>
+                        <h3>Design</h3>
+                        <p>Our designers create stunning, user-friendly interfaces that align with your brand and drive
+                            conversions.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                        <div class="step-number">03</div>
+                        <h3>Development</h3>
+                        <p>We build your solution using cutting-edge technologies, ensuring it's fast, secure, and
+                            scalable.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                        <div class="step-number">04</div>
+                        <h3>Launch & Support</h3>
+                        <p>We launch your project and provide ongoing support to ensure continued success and growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Stats Section -->
+        <section class="stats" id="stats" aria-labelledby="stats-title">
+            <div class="container">
+                <h2 id="stats-title" class="section-title" data-aos="fade-up">Our Impact So Far</h2>
+                <p class="section-subtitle" data-aos="fade-up">Numbers that speak for themselves</p>
+
+                <div class="stats-grid" data-aos="fade-up" role="list" aria-label="Company statistics">
+                    <div class="stat-card" role="listitem">
+                        <h3 class="stat-number" aria-label="10 plus clients worldwide">20+</h3>
+                        <p>global brands</p>
+                    </div>
+                    <div class="stat-card" role="listitem">
+                        <h3 class="stat-number" aria-label="10 plus clients worldwide"></h3>
+                        <p>Brands launched from scratch</p>
+                    </div>
+                    <div class="stat-card" role="listitem">
+                        <h3 class="stat-number" aria-label="15 plus completed projects">3+</h3>
+                        <p>years international experience</p>
+                    </div>
+                    <div class="stat-card" role="listitem">
+                        <h3 class="stat-number" aria-label="100 percent client satisfaction">100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+            <div class="container">
+                <h2 id="testimonials-title" class="section-title" data-aos="fade-up">What Our Clients Say</h2>
+                <p class="section-subtitle" data-aos="fade-up">Real feedback from real clients</p>
+
+                <div class="review-grid">
+                    <div class="review-card">
+                        <img src="Assets/clientreview.png" alt="Client Review Screenshot 1">
+                    </div>
+                    <div class="review-card">
+                        <img src="Assets/clientreview2.png" alt="Client Review Screenshot 2">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq" data-aos="fade-up" aria-labelledby="faq-title">
+            <div class="container">
+                <h2 id="faq-title" class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about working with us</p>
+
+                <div class="faq-grid">
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3>What services does Meticon Solutions offer?</h3>
+                        <p>We provide complete e-commerce solutions, including Amazon PPC management, brand strategy,
+                            storefront & listing optimization, inventory planning, creative design, AI-powered
+                            automation, and Shopify/TikTok Shop integration.</p>
+                    </div>
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3>How can you help improve my Amazon sales?</h3>
+                        <p>Our team optimizes product listings, creates high-converting storefronts, and manages PPC
+                            campaigns to maximize ROI while reducing wasted ad spend.</p>
+                    </div>
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Do you work with new brands?</h3>
+                        <p>Yes — we help launch brands from scratch, including product research, brand identity
+                            creation, and full marketplace setup on Amazon, TikTok Shop, and Shopify.</p>
+                    </div>
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3>What is your approach to PPC management?</h3>
+                        <p>We use data-driven strategies, negative keyword optimization, and continuous performance
+                            tracking to ensure predictable growth and lower costs.</p>
+                    </div>
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3>Can you handle product photography and creative content?</h3>
+                        <p>Absolutely — we offer professional product images, A+ content, videos, and social media
+                            creatives tailored to boost engagement and conversions.</p>
+                    </div>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3>Do you provide support for international sellers?</h3>
+                        <p>Yes, we work with brands worldwide and adapt strategies for both local and global markets.
+                        </p>
+                    </div>
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3>How do you ensure smooth inventory management?</h3>
+                        <p>We forecast demand, manage stock levels, and plan fulfillment to avoid both overstock and
+                            stockouts.</p>
+                    </div>
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3>What makes Meticon Solutions different from other agencies?</h3>
+                        <p>Our integrated approach combines marketing, creative design, automation, and marketplace
+                            expertise — delivering measurable results with ongoing support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner" aria-label="Call to action">
+            <h2>Ready to grow your digital presence?</h2>
+            <p>Let's discuss your project and bring your vision to life</p>
+            <a href="#contact" class="btn-primary" aria-label="Start your project with BYTE BUILD TECH">Let's Build
+                Together</a>
+        </section>
+
+        <section id="contact" class="contact" data-aos="fade-up" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                <form id="contact-form" class="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name" class="visually-hidden">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required
+                            aria-required="true" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required
+                            aria-required="true" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="visually-hidden">Your Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message" required
+                            aria-required="true"></textarea>
+                    </div>
+                    <button class="btn-primary" type="submit" aria-label="Send your message">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;">Sending...</span>
+                    </button>
+                </form>
+                <div id="form-status" class="form-status" style="display: none;"></div>
+            </div>
+        </section>
+
+        <!-- Thank You Modal -->
+        <div id="thank-you-modal" class="modal-overlay" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="success-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22,4 12,14.01 9,11.01"></polyline>
+                        </svg>
+                    </div>
+                    <button class="modal-close" id="modal-close" aria-label="Close modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <h3>Thank You! 🎉</h3>
+                    <p>Your message has been sent successfully!</p>
+                    <p class="subtitle">We'll get back to you within 24 hours.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-primary modal-btn" id="modal-close-btn">Close</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 BYTE BUILD TECH — All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ once: true, duration: 800, offset: 120 });</script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
