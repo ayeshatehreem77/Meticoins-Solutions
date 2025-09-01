@@ -605,7 +605,7 @@ nav.scrolled .nav-links a {
     color: var(--brand-purple);
 }
 
-/* ---------- Services ---------- */
+
 /* ---------- Services ---------- */
 .service-card {
     background: #FFFFFF;
@@ -693,6 +693,8 @@ nav.scrolled .nav-links a {
 }
 
 /* service modal */
+
+
 .service-modal-overlay {
     position: fixed;
     inset: 0;
@@ -706,7 +708,7 @@ nav.scrolled .nav-links a {
 
 .service-modal-content {
     background: #ECF0F3;
-    max-width: 800px;
+    max-width: 935px;
     width: 90%;
     max-height: 90vh;
     overflow-y: auto;
@@ -728,12 +730,38 @@ nav.scrolled .nav-links a {
     /* adjust distance from top */
     right: 0.5rem;
     /* adjust distance from right */
+    position: absolute;
 }
 
 .service-hero {
     padding: 120px 20px;
     text-align: center;
     position: relative;
+}
+
+.hero-amazon {
+  background-color: #f7f0e8;
+  color: #ff6f00;
+}
+
+.hero-digital {
+  background-color: #e8f7f0;
+  color: #00aaff;
+}
+
+.hero-graphic {
+  background-color: #f0e8f7;
+  color: #aa00ff;
+}
+
+.hero-ecommerce {
+  background-color: #fff4e8;
+  color: #ff4500;
+}
+
+.hero-tiktok {
+  background-color: #e8f0ff;
+  color: #1da1f2;
 }
 
 .service-hero h2 {
@@ -767,7 +795,7 @@ nav.scrolled .nav-links a {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .icon1 {
@@ -790,30 +818,120 @@ nav.scrolled .nav-links a {
 
 .icon4 {
     background: #bef264;
-    bottom: 20%;
+    bottom: 16%;
     right: 13%;
 }
 
+.icon1, .icon2, .icon3, .icon4 {
+  position: absolute;
+  width: 70px;       /* set width */
+  height: 70px;      /* set height */
+  box-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+  color: #ffffff;
+  
+  animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.modal-service-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* space between cards */
+  justify-content: center; /* center the cards horizontally */
+}
+
 .modal-service-block {
-    margin-bottom: 1.5rem;
+  background: #fff;                 /* card background */
+  border-radius: 12px;              /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow */
+  padding: 20px;                    /* inner spacing */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* hover effect */
+  width: 45%;                     /* card width */
+}
+
+.category-header {
+    display: flex;
+    gap: 13px;
+    height: 68px;
+}
+
+.category-title {
+    padding-top: 22px;
+    margin-bottom: 0;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.separator {
+    border: none;
+    height: 1px;
+    background-color: #c9d1d9;
+    margin: 35px 0;
+}
+
+.category-items {
+  list-style: none !important; /* remove default bullets */
+  padding-left: 0;  /* remove left padding */
+}
+
+.category-items li {
+  position: relative;
+  padding-left: 25px; /* space for tick */
+  margin-bottom: 8px;  /* optional spacing */
+}
+
+.category-items li::before {
+  content: "✔"; /* checkmark */
+  position: absolute;
+  left: 0;
+  color: #f84b15; /* orange color */
+}
+
+/* Hover effect */
+.modal-service-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.sub-services {
+    margin-top: 10%;
+}
+
+.sub-services h4, .service-drivers h4 {
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: 24px;
 }
 
 .modal-service-block h5 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
-.modal-drivers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
+.modal-service-block ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
-.driver-card {
-    background: #f8f8f8;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
+.service-drivers {
+    margin: 63px auto;
+    width: 75%;
+}
+
+.driver-block {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.driver-info h5 {
+    font-size: 18px;
 }
 
 

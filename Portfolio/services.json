@@ -1,119 +1,131 @@
 {
   "amazon": {
-    "title": "Amazon Brand Growth & Private Label Solutions",
+    "title": "Amazon Brand Growth & Private \n Label Solutions",
     "subtitle": "Full-Service Amazon Agency",
-    "description": "We are a full-service Amazon agency helping brands and private label sellers launch, manage, and scale their business on Amazon. From company setup to global expansion, our team handles everything end-to-end so you can focus on growth while we manage the operations.",
+    "description": "We help brands launch, grow, and scale on Amazon—handling everything end-to-end so you can focus on growth.",
+    "sub_services": "Our Complete Amazon Services",
     "services": [
       {
         "category": "Business Setup & Compliance",
+        "category_description": "Ensure your business is legally compliant and ready for smooth operations.",
         "items": [
           "LLC & Trademark registration",
           "Amazon Seller Account setup (Individual & LLC)",
           "Brand Registry & compliance management"
         ],
-        "icon": "📝"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M686-132 444-376q-20 8-40.5 12t-43.5 4q-100 0-170-70t-70-170q0-36 10-68.5t28-61.5l146 146 72-72-146-146q29-18 61.5-28t68.5-10q100 0 170 70t70 170q0 23-4 43.5T584-516l244 242q12 12 12 29t-12 29l-84 84q-12 12-29 12t-29-12Zm29-85 27-27-256-256q18-20 26-46.5t8-53.5q0-60-38.5-104.5T386-758l74 74q12 12 12 28t-12 28L332-500q-12 12-28 12t-28-12l-74-74q9 57 53.5 95.5T360-440q26 0 52-8t47-25l256 256ZM472-488Z'/></svg>"
       },
       {
         "category": "Product Research & Sourcing",
+        "category_description": "Identify profitable products and reliable suppliers for maximum ROI.",
         "items": [
           "Data-driven product research & validation",
           "Profitability & competitor analysis",
           "Sourcing & supplier negotiations"
         ],
-        "icon": "🔍"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M630-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160h-56L556-348q-21 14-45.5 21t-50.5 7q-75 0-127.5-52.5T280-500q0-75 52.5-127.5T460-680q75 0 127.5 52.5T640-500q0 27-7 51t-21 45l164 164h24v-480H160v480h390l80 80ZM460-400q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29ZM160-240v-480 480Z'/></svg>"
       },
       {
         "category": "Catalog & Listing Optimization",
+        "category_description": "Optimize your listings for maximum organic traffic and conversions.",
         "items": [
           "Catalog setup with variations",
           "SEO-optimized titles, bullets & descriptions",
           "Backend keyword indexing"
         ],
-        "icon": "📑"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M132-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h696q24 0 42 18t18 42v600q0 24-18 42t-42 18H132Zm0-60h696v-600H132v600Zm68-100h200v-80H200v80Zm382-80 198-198-57-57-141 142-57-57-56 57 113 113Zm-382-80h200v-80H200v80Zm0-160h200v-80H200v80Zm-68 420v-600 600Z'/></svg>"
       },
       {
         "category": "Brand Content & Creative Design",
+        "category_description": "Craft compelling visuals and content that strengthen your brand identity.",
         "items": [
           "A+ Content / EBC creation",
           "Amazon Storefront design",
           "High-quality infographics, lifestyle images & video"
         ],
-        "icon": "🎨"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M478.72-62.8q-86.17 0-161.83-33-75.65-33-133.01-89.86-57.36-56.86-89.86-133.03t-32.5-161.36q0-88.19 33.11-164.26 33.11-76.06 91.24-132.23 58.13-56.18 135.31-88.54 77.19-32.35 166.1-32.35 82.92 0 157.51 27.98 74.59 27.99 131.14 77.62 56.55 49.63 90.17 117.92 33.62 68.29 33.62 147.95 0 115.81-68.85 181.84t-177.28 66.03h-62.52q-16.48 0-28.36 12.61-11.88 12.6-11.88 28.77 0 24.34 11.64 38.26 11.64 13.93 11.64 38.97 0 40.96-27.17 68.82-27.17 27.86-68.22 27.86ZM480-480Zm-233.53 30.33q21.4 0 37.8-16.03t16.4-38.31q0-22.27-16.45-38.29-16.46-16.03-37.63-16.03-22.52 0-38.43 16.03-15.9 16.03-15.9 38.31 0 22.27 15.9 38.29 15.91 16.03 38.31 16.03Zm125.56-169.85q21.64 0 38.05-15.9 16.4-15.91 16.4-38.31 0-22.64-16.4-38.42-16.41-15.78-37.81-15.78-22.64 0-38.42 15.83-15.78 15.84-15.78 38.13 0 22.64 15.83 38.55 15.84 15.9 38.13 15.9Zm213.25 0q21.52 0 37.93-15.9 16.4-15.91 16.4-38.31 0-22.64-16.46-38.42-16.46-15.78-37.63-15.78-22.76 0-38.54 15.83-15.78 15.84-15.78 38.13 0 22.64 15.78 38.55 15.78 15.9 38.3 15.9Zm130.85 169.85q21.52 0 37.92-16.03 16.41-16.03 16.41-38.31 0-22.27-16.41-38.29-16.4-16.03-37.8-16.03-22.64 0-38.42 16.03-15.79 16.03-15.79 38.31 0 22.27 15.84 38.29 15.84 16.03 38.25 16.03ZM476.48-140.11q9.74 0 15.03-3.77 5.29-3.77 5.29-14.41 0-13.86-14.62-24.56-14.61-10.7-14.61-51.11 0-48.21 30.63-84.82 30.63-36.61 78.18-36.61h77.21q73 0 120.79-42.72 47.79-42.72 47.79-126.41 0-134.39-101.45-214.88-101.46-80.49-233.34-80.49-146.57 0-247.56 98.7-100.99 98.69-100.99 241.25 0 141.74 98.27 240.79 98.27 99.04 239.38 99.04Z'/></svg>"
       },
       {
         "category": "SEO & Organic Growth",
+        "category_description": "Boost visibility and drive long-term organic growth through smart SEO strategies.",
         "items": [
           "Advanced keyword research",
           "Ranking optimization strategies",
           "Ongoing listing performance improvements"
         ],
-        "icon": "📈"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M320-414v-306h120v306l-60-56-60 56Zm200 60v-526h120v406L520-354ZM120-216v-344h120v224L120-216Zm0 98 258-258 142 122 224-224h-64v-80h200v200h-80v-64L524-146 382-268 232-118H120Z'/></svg>"
       },
       {
         "category": "PPC & Advertising Management",
+        "category_description": "Maximize ad performance and ROI with targeted campaigns.",
         "items": [
           "Sponsored Products, Brands & Display campaigns",
           "Advanced targeting & negative keyword strategies",
           "Daily campaign optimization for maximum ROI"
         ],
-        "icon": "💡"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M468-240q-96-5-162-74t-66-166q0-100 70-170t170-70q97 0 166 66t74 162l-84-25q-13-54-56-88.5T480-640q-66 0-113 47t-47 113q0 57 34.5 100t88.5 56l25 84Zm48 158q-9 2-18 2h-18q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480v18q0 9-2 18l-78-24v-12q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93h12l24 78Zm305 22L650-231 600-80 480-480l400 120-151 50 171 171-79 79Z'/></svg>"
       },
       {
         "category": "Product Launch & Ranking",
+        "category_description": "Strategically launch products to achieve top rankings quickly.",
         "items": [
           "Complete launch roadmaps",
           "Review generation strategies",
           "Organic ranking campaigns"
         ],
-        "icon": "🚀"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='m226-559 78 33q14-28 29-54t33-52l-56-11-84 84Zm142 83 114 113q42-16 90-49t90-75q70-70 109.5-155.5T806-800q-72-5-158 34.5T492-656q-42 42-75 90t-49 90Zm178-65q-23-23-23-56.5t23-56.5q23-23 57-23t57 23q23 23 23 56.5T660-541q-23 23-57 23t-57-23Zm19 321 84-84-11-56q-26 18-52 32.5T532-299l33 79Zm313-653q19 121-23.5 235.5T708-419l20 99q4 20-2 39t-20 33L538-80l-84-197-171-171-197-84 167-168q14-14 33.5-20t39.5-2l99 20q104-104 218-147t235-24ZM157-321q35-35 85.5-35.5T328-322q35 35 34.5 85.5T327-151q-25 25-83.5 43T82-76q14-103 32-161.5t43-83.5Zm57 56q-10 10-20 36.5T180-175q27-4 53.5-13.5T270-208q12-12 13-29t-11-29q-12-12-29-11.5T214-265Z'/></svg>"
       },
       {
         "category": "Inventory & Operations Management",
+        "category_description": "Streamline inventory and operations for efficiency and cost savings.",
         "items": [
           "Demand forecasting & restock planning",
           "FBA/FBM inventory management",
           "Cost optimization & logistics support"
         ],
-        "icon": "📦"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M620-163 450-333l56-56 114 114 226-226 56 56-282 282Zm220-397h-80v-200h-80v120H280v-120h-80v560h240v80H200q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h167q11-35 43-57.5t70-22.5q40 0 71.5 22.5T594-840h166q33 0 56.5 23.5T840-760v200ZM480-760q17 0 28.5-11.5T520-800q0-17-11.5-28.5T480-840q-17 0-28.5 11.5T440-800q0 17 11.5 28.5T480-760Z'/></svg>"
       },
       {
         "category": "Account Growth & Expansion",
+        "category_description": "Scale your account and expand into new markets confidently.",
         "items": [
           "Account health monitoring & appeals",
           "Performance analytics & reporting",
           "Expansion into EU, UK, and global marketplaces"
         ],
-        "icon": "🌍"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f84b15'><path d='M155.34-113.28q-52.97 0-89.79-36.86-36.81-36.85-36.81-89.8 0-52.95 36.87-90.37 36.87-37.41 89.85-37.41 10.81 0 20.8 2 10 2 19.71 4.52l156.44-214.58q-18.79-21.29-28.96-48.25-10.17-26.97-10.17-55.9 0-70.04 48.53-118.91 48.54-48.88 118.1-48.88 69.57 0 118.69 48.88 49.12 48.87 49.12 118.91 0 28.85-10.56 55.78-10.55 26.93-28.33 48.37L765.08-360.2q8.66-3.52 18.96-5.52 10.3-2 20.09-2 53.56 0 90.85 37.16 37.28 37.17 37.28 90.56 0 52.98-37.16 89.85t-90.56 36.87q-52.97 0-89.84-36.87-36.87-36.87-36.87-89.85 0-21.85 6.64-39.95 6.64-18.09 18.4-35.03L547.91-527.76q-7.23 4.17-14.39 5.64-7.15 1.47-14.37 4.06v157.3q38.52 12.48 63.55 45.35 25.02 32.87 25.02 75.2 0 53.07-37.16 90-37.17 36.93-90.56 36.93-52.98 0-89.85-36.87T353.28-240q0-42.84 24.29-75.68 24.28-32.84 64.28-45.08v-157.3q-8.22-2.59-15.37-4.06-7.16-1.47-13.39-5.64L257.13-314.57q11.52 15.53 18.9 34.25 7.38 18.71 7.38 40.32 0 52.98-37.33 89.85-37.34 36.87-90.74 36.87Zm1.07-74.44q22.62 0 37.95-15.04Q209.7-217.8 209.7-240q0-22.62-15.34-37.95-15.34-15.33-37.96-15.33-22.63 0-37.45 15.33-14.82 15.34-14.82 37.97t15.04 37.44q15.05 14.82 37.24 14.82ZM480-680Zm0 492.28q22.62 0 37.95-15.04 15.33-15.04 15.33-37.24 0-22.62-15.33-37.95-15.34-15.33-37.97-15.33t-37.44 15.33q-14.82 15.34-14.82 37.97t15.04 37.44q15.04 14.82 37.24 14.82Zm324.43 0q22.73 0 38.07-15.04 15.33-15.04 15.33-37.24 0-22.62-15.34-37.95-15.34-15.33-38.08-15.33-22.75 0-37.45 15.33-14.7 15.34-14.7 37.97t14.93 37.44q14.92 14.82 37.24 14.82ZM156.41-240ZM480-240Zm324.54 0ZM479.95-587.96q38.07 0 65.58-26.72 27.51-26.73 27.51-65.27 0-38.07-27.46-65.58-27.46-27.51-65.53-27.51t-65.08 27.46q-27.01 27.46-27.01 65.53t26.72 65.08q26.73 27.01 65.27 27.01Z'/></svg>"
       }
     ],
+    "drivers_title": "The 4 Core Drivers of Amazon Success",
+    "category_description": "",
     "drivers": [
       {
         "title": "Product Catalog Management",
         "description": "Keeps your business foundation strong with accurate, optimized listings.",
-        "icon": "🛒"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='#f84b15'><path d='M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z'/></svg>"
       },
       {
         "title": "Design & Brand Experience",
         "description": "Builds trust and increases conversions through premium visuals.",
-        "icon": "🎨"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='#f84b15'><path d='m352-522 86-87-56-57-44 44-56-56 43-44-45-45-87 87 159 158Zm328 329 87-87-45-45-44 43-56-56 43-44-57-56-86 86 158 159Zm24-567 57 57-57-57ZM290-120H120v-170l175-175L80-680l200-200 216 216 151-152q12-12 27-18t31-6q16 0 31 6t27 18l53 54q12 12 18 27t6 31q0 16-6 30.5T816-647L665-495l215 215L680-80 465-295 290-120Zm-90-80h56l392-391-57-57-391 392v56Zm420-419-29-29 57 57-28-28Z'/></svg>"
       },
       {
         "title": "SEO Optimization",
         "description": "Ensures long-term visibility with better rankings and organic traffic.",
-        "icon": "🔑"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='#f84b15'><path d='M80-480v-80h120v80H80Zm136 222-56-58 84-84 58 56-86 86Zm28-382-84-84 56-58 86 86-58 56Zm476 480L530-350l-50 150-120-400 400 120-148 52 188 188-80 80ZM400-720v-120h80v120h-80Zm236 80-58-56 86-86 56 56-84 86Z'/></svg>"
       },
       {
         "title": "PPC Advertising & Growth",
         "description": "Drives sales momentum and boosts product ranking through paid ads.",
-        "icon": "📊"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 -960 960 960' width='48px' fill='#f84b15'><path d='m82-120 258-360h202l298-348v708H82Zm70-233-64-46 172-241h202l188-219 60 52-212 247H300L152-353Zm86 153h522v-412L578-400H380L238-200Zm522 0Z'/></svg>"
       }
     ]
   },
-
-  "digital_marketing": {
-    "title": "Digital Marketing & Online Growth Solutions",
+  "digital-marketing": {
+    "title": "Meta Ads — Our Way of Work",
     "subtitle": "Data-Driven Marketing Agency",
     "description": "We help businesses build their online presence, attract targeted customers, and drive conversions through powerful digital marketing strategies across search, social, and content.",
+    "sub_services": "Our Complete Amazon Services",
     "services": [
       {
         "category": "Search Engine Optimization (SEO)",
@@ -161,34 +173,35 @@
         "icon": "📊"
       }
     ],
+    "drivers_title": "4 Rules Behind Our Campaign Success",
     "drivers": [
       {
-        "title": "Brand Visibility",
-        "description": "Expand your reach across search engines and social platforms.",
+        "title": "Creative-First Approach",
+        "description": "We prioritize native, engaging creatives with strong hooks and platform-appropriate storytelling to capture attention quickly.",
         "icon": "🌐"
       },
       {
-        "title": "Lead Generation",
-        "description": "Turn traffic into qualified leads with optimized campaigns.",
+        "title": "Data-Driven Decisions",
+        "description": "Every move is guided by performance metrics such as CPA, ROAS, and CTR, ensuring resources are invested in what works.",
         "icon": "🎯"
       },
       {
-        "title": "Content Strategy",
-        "description": "Build authority through valuable and engaging content.",
+        "title": "Structured Testing",
+        "description": "Systematic testing of audiences, creatives, and offers provides reliable learnings that fuel consistent campaign improvement.",
         "icon": "📝"
       },
       {
-        "title": "Performance Tracking",
-        "description": "Stay on top of ROI with detailed metrics and KPIs.",
+        "title": "Full-Funnel Strategy",
+        "description": "Ads are designed as part of a complete funnel — from prospecting to loyalty — maximizing both short-term conversions and long-term value.",
         "icon": "📈"
       }
     ]
   },
-
   "ecommerce": {
     "title": "E-Commerce Store Development & Management",
     "subtitle": "Complete Online Selling Solutions",
     "description": "From building your online store to managing operations, we offer end-to-end e-commerce solutions that help brands scale and sell globally.",
+    "sub_services": "Our Complete Amazon Services",
     "services": [
       {
         "category": "Store Setup",
@@ -236,6 +249,7 @@
         "icon": "📊"
       }
     ],
+    "drivers_title": "The 4 Core Drivers of Amazon Success",
     "drivers": [
       {
         "title": "Seamless Storefronts",
@@ -259,11 +273,11 @@
       }
     ]
   },
-
   "tiktok": {
     "title": "TikTok Marketing & Viral Growth",
     "subtitle": "Creative TikTok Campaigns",
     "description": "We create viral-worthy TikTok campaigns and strategies that help brands engage with Gen Z, build a community, and go viral with trending content.",
+    "sub_services": "Our Complete Amazon Services",
     "services": [
       {
         "category": "Content Strategy",
@@ -311,6 +325,7 @@
         "icon": "📊"
       }
     ],
+    "drivers_title": "The 4 Core Drivers of Amazon Success",
     "drivers": [
       {
         "title": "Viral Content",
@@ -334,11 +349,11 @@
       }
     ]
   },
-
-  "graphic_design": {
+  "graphic-design": {
     "title": "Graphic Design & Creative Branding",
     "subtitle": "Visual Design Agency",
     "description": "We craft stunning visuals and brand assets that tell your story, build trust, and create a strong identity across digital and print platforms.",
+    "sub_services": "Our Complete Amazon Services",
     "services": [
       {
         "category": "Branding & Identity",
@@ -386,6 +401,7 @@
         "icon": "🎥"
       }
     ],
+    "drivers_title": "The 4 Core Drivers of Amazon Success",
     "drivers": [
       {
         "title": "Strong Branding",

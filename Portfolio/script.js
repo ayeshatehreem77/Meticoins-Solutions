@@ -240,6 +240,35 @@ function openServiceModal(service) {
   const sectionsEl = modal.querySelector("#service-sections");
   const driversEl = modal.querySelector("#service-drivers");
 
+  document.addEventListener("DOMContentLoaded", () => {
+  const heroSection = document.querySelector(".service-hero");
+  
+  // Remove any previous service classes
+  heroSection.className = "service-hero"; 
+  
+  // Add class based on service
+  switch(service.id) { // or service.slug
+  case "amazon":
+    heroSection.classList.add("hero-amazon");
+    break;
+  case "digital-marketing":
+    heroSection.classList.add("hero-digital");
+    break;
+  case "graphic-design":
+    heroSection.classList.add("hero-graphic");
+    break;
+  case "ecommerce":
+    heroSection.classList.add("hero-ecommerce");
+    break;
+  case "tiktok-shop":
+    heroSection.classList.add("hero-tiktok");
+    break;
+  default:
+    break;
+  }
+});
+
+
   if (!titleEl || !subtitleEl || !descEl || !sectionsEl || !driversEl) {
     console.error("❌ Service modal elements missing in HTML");
     return;
@@ -253,27 +282,42 @@ function openServiceModal(service) {
   // Fill services sections
   sectionsEl.innerHTML = "";
   if (service.services && Array.isArray(service.services)) {
-    sectionsEl.innerHTML = service.services.map(s => `
+    sectionsEl.innerHTML = `
+    <div class="modal-service-title">
+      <h4>${service.sub_services}</h4>
+    </div>
+  <div class="modal-service-container">
+    ${service.services.map(s => `
       <div class="modal-service-block">
-        <h5>${s.icon || ""} ${s.category}</h5>
-        <ul>
+         <div class="category-header">
+           <div class="service-icon">${s.icon || ""}</div>
+           <div class="category-title">${s.category}</div>
+         </div>
+          <div class="category-description">${s.category_description || ""}</div>
+          <hr class="separator">
+         <ul class="category-items">
           ${s.items.map(item => `<li>${item}</li>`).join("")}
-        </ul>
+         </ul>
       </div>
-    `).join("");
+    `).join("")}
+  </div>
+`;
+
   }
 
   // Fill drivers
   driversEl.innerHTML = "";
   if (service.drivers && Array.isArray(service.drivers)) {
     driversEl.innerHTML = `
-      <h4>Key Drivers</h4>
-      <div class="modal-drivers-grid">
+       <h4 class="driver-title">${service.drivers_title}</h4>
+      <div class="drivers-container">
         ${service.drivers.map(d => `
-          <div class="driver-card">
-            <span class="driver-icon">${d.icon || ""}</span>
-            <h5>${d.title}</h5>
+          <div class="driver-block">
+          <div class="driver-icon">${d.icon || ""}</div>
+          <div class="driver-info">
+          <h5>${d.title}</h5>
             <p>${d.description}</p>
+          </div>
           </div>
         `).join("")}
       </div>
