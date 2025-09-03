@@ -324,6 +324,30 @@ function openServiceModal(service) {
     `;
   }
 
+     // Fill Why Choose Us
+  whyUsEl.innerHTML = "";
+  if (service.why_us && Array.isArray(service.why_us)) {
+    whyUsEl.innerHTML = `
+      <h4 class="why-us-title">Why Choose Meticoin Solutions?</h4>
+      <div class="why-us-list">
+        ${service.why_us.map(reason => `<div class="why-us-item"> ${reason}</div>`).join("")}
+      </div>
+    `;
+  }
+
+// Fill CTA
+ctaEl.innerHTML = "";
+if (service.cta) {
+  ctaEl.innerHTML = `
+    <div class="cta-content">
+      <h4 class="cta-title">${service.cta.title}</h4>
+      <p class="cta-description">${service.cta.description}</p>
+      <p class="cta-note"><em>${service.cta.note}</em></p>
+    </div>
+  `;
+}
+
+
   // Show modal
   modal.style.display = "flex";
   document.body.style.overflow = "hidden";
