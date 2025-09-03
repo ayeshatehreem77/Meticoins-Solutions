@@ -824,8 +824,8 @@ nav.scrolled .nav-links a {
 
 .icon1, .icon2, .icon3, .icon4 {
   position: absolute;
-  width: 70px;       /* set width */
-  height: 70px;      /* set height */
+  width: 70px !important;       /* set width */
+  height: 70px !important;      /* set height */
   box-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
   color: #ffffff;
   
@@ -1007,36 +1007,28 @@ nav.scrolled .nav-links a {
     background: var(--surface);
 }
 
-.testimonial-grid {
-    display: grid;
-    gap: 24px;
-    margin-top: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two equal columns */
+  gap: 20px; /* spacing between cells */
+  max-width: 1150px; /* optional: keeps them from stretching too wide */
+  margin: auto; /* centers grid horizontally */
 }
 
-.testimonial-card {
-    composes: card;
-    padding: 2rem;
-    position: relative;
+.review-card {
+  background: #fff; /* optional: card styling */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.quote-icon {
-    font-size: 4rem;
-    color: var(--brand-purple);
-    position: absolute;
-    top: -12px;
-    left: 18px;
-    opacity: .25;
-}
-
-.testimonial-card p {
-    font-style: italic;
-}
-
-.testimonial-author cite {
-    color: var(--brand-purple);
-    font-style: normal;
-    font-weight: 700;
+.review-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* ---------- Why choose us ---------- */
