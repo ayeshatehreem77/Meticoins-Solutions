@@ -45,6 +45,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- lottie background animation -->
     <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <!-- Font Awesome (latest CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -197,7 +200,7 @@
                 <p class="section-subtitle">Meticon Solutions helps eCommerce brands launch, grow, and scale with
                     end-to-end services tailored for global success.</p>
                 <div class="services-grid">
-                    <article class="service-card" data-service="ecommerce">
+                    <article class="service-card" data-service="ecommerce_tiktok">
                         <div class="service-icon">🛍️</div>
                         <h3>eCommerce (Shopify)</h3>
                         <ul class="service-features">
@@ -208,7 +211,7 @@
                             <li>Conversion-focused user experience</li>
                         </ul>
                     </article>
-                    <article class="service-card" data-service="tiktok">
+                    <article class="service-card" data-service="ecommerce_tiktok">
                         <div class="service-icon">📱</div>
                         <h3>TikTok Shop</h3>
                         <ul class="service-features">
@@ -266,15 +269,11 @@
 
         <!-- Service Modal -->
         <div id="service-modal" class="service-modal-overlay modal fade" style="display:none;">
-            <div class="service-modal-content">
+            <div class="service-modal-content " data-aos="zoom-in" data-aos-duration="500"
+                data-aos-easing="ease-in-out">
                 <div class="modal-header custom-header">
                     <button id="service-modal-close" class="modal-close btn-close ms-auto">&times;</button>
                 </div>
-                <!-- <section class="service-hero">
-                    <h2 id="service-title"></h2>
-                    <h4 id="service-subtitle"></h4>
-                    <p id="service-description"></p>
-                </section> -->
 
                 <section class="service-hero">
                     <h4 id="service-subtitle"></h4>
@@ -290,8 +289,11 @@
                 </section>
                 <div id="service-sections" class="sub-services"></div>
                 <div id="service-drivers" class="service-drivers"></div>
+                <div id="why-us" class="why-us"></div>
+                <div id="service-cta" class="service-cta"></div>
             </div>
         </div>
+
 
 
 
@@ -373,7 +375,8 @@
                         </div>
                         <h3>Ahtesham</h3>
                         <p class="member-role">Web developer</p>
-                        <p class="member-bio">Add info...</p>
+                        <p class="member-bio">Web Developer with 5+ Years Experience in Responsive Websites, Web
+                            Applications & Performance Optimization.</p>
                     </div>
                     <div class="team-member" data-aos="fade-up" data-aos-delay="100">
                         <div class="member-avatar">
@@ -462,10 +465,10 @@
                 <p class="section-subtitle" data-aos="fade-up">Real feedback from real clients</p>
 
                 <div class="review-grid">
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="100">
                         <img src="Assets/clientreview.png" alt="Client Review Screenshot 1">
                     </div>
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="200">
                         <img src="Assets/clientreview2.png" alt="Client Review Screenshot 2">
                     </div>
                 </div>
@@ -536,8 +539,12 @@
         <section class="cta-banner" aria-label="Call to action">
             <h2>Ready to grow your digital presence?</h2>
             <p>Let's discuss your project and bring your vision to life</p>
-            <a href="#contact" class="btn-primary" aria-label="Start your project with BYTE BUILD TECH">Let's Build
-                Together</a>
+
+            <a href="#" class="btn-primary"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hafsa032173/30min'});return false;"
+                aria-label="Start your project with BYTE BUILD TECH">
+                Book a Meeting
+            </a>
         </section>
 
         <section id="contact" class="contact" data-aos="fade-up" aria-labelledby="contact-title">
@@ -605,7 +612,10 @@
     <script>AOS.init({ once: true, duration: 800, offset: 120 });</script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
     <script src="script.js"></script>
+    <!-- calendly -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 </body>
 
 </html>
