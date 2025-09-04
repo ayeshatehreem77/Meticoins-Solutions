@@ -239,6 +239,8 @@ function openServiceModal(service) {
   const descEl = modal.querySelector("#service-description");
   const sectionsEl = modal.querySelector("#service-sections");
   const driversEl = modal.querySelector("#service-drivers");
+  const whyUsEl = modal.querySelector("#why-us");
+  const ctaEl = modal.querySelector("#service-cta");
 
   document.addEventListener("DOMContentLoaded", () => {
   const heroSection = document.querySelector(".service-hero");
@@ -273,8 +275,7 @@ function openServiceModal(service) {
     console.error("❌ Service modal elements missing in HTML");
     return;
   }
-
-  // Fill header info
+  // Fill basic info
   titleEl.textContent = service.title || "";
   subtitleEl.textContent = service.subtitle || "";
   descEl.textContent = service.description || "";
@@ -324,7 +325,7 @@ function openServiceModal(service) {
     `;
   }
 
-     // Fill Why Choose Us
+  // Fill Why Choose Us
   whyUsEl.innerHTML = "";
   if (service.why_us && Array.isArray(service.why_us)) {
     whyUsEl.innerHTML = `
@@ -346,7 +347,6 @@ if (service.cta) {
     </div>
   `;
 }
-
 
   // Show modal
   modal.style.display = "flex";
