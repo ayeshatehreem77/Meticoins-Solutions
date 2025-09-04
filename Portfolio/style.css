@@ -1,7 +1,4 @@
-/* =========================================================
-   Brand Theme — matches hero gradient (pink/purple/navy)
-   Replace your existing CSS with this file
-========================================================= */
+
 
 /* ---------- Tokens ---------- */
 :root {
@@ -1590,7 +1587,3 @@ footer a:hover {
     }
 }
 
-/* ---------- Utility (composes) ----------
-   Note: if your bundler doesn't support `composes`,
-   the repeated "card" styles above are already explicit. 
-------------------------------------------- */
