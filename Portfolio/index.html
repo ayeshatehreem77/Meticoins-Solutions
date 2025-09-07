@@ -48,7 +48,6 @@
     <!-- Font Awesome (latest CDN) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 
-    <!-- calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -201,8 +200,9 @@
                 <p class="section-subtitle">Meticon Solutions helps eCommerce brands launch, grow, and scale with
                     end-to-end services tailored for global success.</p>
                 <div class="services-grid">
-                    <article class="service-card" data-service="ecommerce_tiktok">
-                        <div class="service-icon">🛍️</div>
+                    <article class="service-card" data-service="ecommerce">
+                        <div class="service-icon"><img src="Assets/shopify.svg" alt="Next.js logo" width="60"
+                                height="60" loading="lazy" /></div>
                         <h3>eCommerce (Shopify)</h3>
                         <ul class="service-features">
                             <li>Market research & winning product selection</li>
@@ -212,28 +212,10 @@
                             <li>Conversion-focused user experience</li>
                         </ul>
                     </article>
-                    <article class="service-card" data-service="ecommerce_tiktok">
-                        <div class="service-icon">📱</div>
-                        <h3>TikTok Shop</h3>
-                        <ul class="service-features">
-                            <li>Complete TikTok Shop setup & management</li>
-                            <li>Product research, influencer, & UGC content campaigns</li>
-                            <li>Product optimization for TikTok trends</li>
-                            <li>High-converting TikTok ad campaign management</li>
-                        </ul>
-                    </article>
-                    <article class="service-card" data-service="digital-marketing">
-                        <div class="service-icon">🎯</div>
-                        <h3>Digital Marketing</h3>
-                        <ul class="service-features">
-                            <li>TikTok, Facebook, Instagram & Google Ads</li>
-                            <li>Advanced audience targeting & segmentation</li>
-                            <li>Creative testing & performance optimization</li>
-                            <li>Sales-focused funnel strategies</li>
-                        </ul>
-                    </article>
+
                     <article class="service-card" data-service="amazon">
-                        <div class="service-icon">🛒</div>
+                        <div class="service-icon"><img src="Assets/amazon-svgrepo-com.svg" alt="React.js logo"
+                                width="60" height="60" loading="lazy" /></div>
                         <h3>Amazon</h3>
                         <ul class="service-features">
                             <li>Product launches & brand building</li>
@@ -242,8 +224,22 @@
                             <li>Product catalog SEO, content design & PPC campaigns</li>
                         </ul>
                     </article>
+
+                    <article class="service-card" data-service="tiktok">
+                        <div class="service-icon"> <img src="Assets/tiktok.svg" alt="Nest.js logo" width="60"
+                                height="60" loading="lazy" /></div>
+                        <h3>TikTok Shop</h3>
+                        <ul class="service-features">
+                            <li>Complete TikTok Shop setup & management</li>
+                            <li>Product research, influencer, & UGC content campaigns</li>
+                            <li>Product optimization for TikTok trends</li>
+                            <li>High-converting TikTok ad campaign management</li>
+                        </ul>
+                    </article>
+
                     <article class="service-card" data-service="graphic-design">
-                        <div class="service-icon">🎨</div>
+                        <div class="service-icon"><img src="Assets/graphicdesign.svg" alt="React.js logo" width="60"
+                                height="60" loading="lazy" /></div>
                         <h3>Graphic Design</h3>
                         <ul class="service-features">
                             <li>Custom product packaging & label design</li>
@@ -252,8 +248,22 @@
                             <li>Marketing creatives for ads & social media</li>
                         </ul>
                     </article>
+
+                    <article class="service-card" data-service="digital-marketing">
+                        <div class="service-icon"><img src="Assets/digitalmarketing.svg" alt="React.js logo" width="60"
+                                height="60" loading="lazy" /></div>
+                        <h3>Digital Marketing</h3>
+                        <ul class="service-features">
+                            <li>TikTok, Facebook, Instagram & Google Ads</li>
+                            <li>Advanced audience targeting & segmentation</li>
+                            <li>Creative testing & performance optimization</li>
+                            <li>Sales-focused funnel strategies</li>
+                        </ul>
+                    </article>
+
                     <article class="service-card" data-service="web_development">
-                        <div class="service-icon">💻</div>
+                        <div class="service-icon"><img src="Assets/webdev.svg" alt="React.js logo" width="60"
+                                height="60" loading="lazy" /></div>
                         <h3>Web Development</h3>
                         <ul class="service-features">
                             <li>Responsive and mobile-friendly websites</li>
@@ -388,8 +398,31 @@
                         <p class="member-bio">E-commerce & TikTok Shop Specialist with 5+ Years Experience in Store
                             Optimization & Ad Campaigns.</p>
                     </div>
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👨‍💼</div>
+                        </div>
+                        <h3>Salah ud Din</h3>
+                        <p class="member-role">Amazon Brand Manager</p>
+                        <p class="member-bio">
+                            3+ years in product research, sourcing, and listing optimization — scaling brands on Amazon.
+                        </p>
+                    </div>
 
 
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-avatar">
+                            <div class="avatar-placeholder">👩‍💼</div>
+                        </div>
+                        <h3>Nazia Quraishi</h3>
+                        <p class="member-role">Amazon Brand Manager</p>
+                        <p class="member-bio">
+                            4+ years in PPC, product selection, and market analysis — driving profitable Amazon
+                            growth.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -541,9 +574,9 @@
             <h2>Ready to grow your digital presence?</h2>
             <p>Let's discuss your project and bring your vision to life</p>
 
-            <a href="#" class="btn-primary"
+            <a class="btn-primary" href=""
                 onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hafsa032173/30min'});return false;"
-                aria-label="Start your project with BYTE BUILD TECH">
+                aria-label="Start your project with METICOIN SOLUTIONS">
                 Book a Meeting
             </a>
         </section>
@@ -603,20 +636,20 @@
     <!-- Footer -->
     <footer role="contentinfo">
         <div class="container">
-            <p>&copy; 2025 BYTE BUILD TECH — All rights reserved.</p>
+            <p>&copy; 2025 Meticoin Solutions — All rights reserved.</p>
         </div>
     </footer>
 
     <!-- Scripts -->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>AOS.init({ once: true, duration: 800, offset: 120 });</script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    
+
     <script src="script.js"></script>
-    <!-- calendly -->
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
 </body>
 
 </html>
