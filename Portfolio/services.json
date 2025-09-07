@@ -180,7 +180,7 @@
       }
     ]
   },
-  "ecommerce_tiktok": {
+  "tiktok": {
     "title": "E-Commerce Growth & TikTok Shop Solutions",
     "subtitle": "Full-Service E-Commerce Agency",
     "description": "We help brands thrive on TikTok Shop (UK & USA) and beyond—offering end-to-end e-commerce expertise from product discovery to private-label scaling for sustainable, profitable growth.",
@@ -259,6 +259,85 @@
       "note": "Start building your TikTok Shop success story with us today."
     }
   },
+  "ecommerce": {
+  "title": "High-Converting Shopify Store Solutions",
+  "subtitle": "End-to-End Shopify Growth & Branding",
+  "description": "At Meticon Solutions, we specialize in building high-converting Shopify stores tailored for modern e-commerce success. With 4+ years of experience, we combine data-driven strategies, sleek design, and seamless functionality to help brands launch, grow, and scale on Shopify.",
+  "sub_services": "Our Core Expertise",
+  "services": [
+    {
+      "category": "Product Research & Validation",
+      "items": [
+        "Analyze market trends, competitors, and customer demand",
+        "Validate products with data-driven insights before launch",
+        "Position winning products for maximum success in Shopify"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M824-80 716-188q-22 13-46 20.5t-50 7.5q-75 0-127.5-52.5T440-340q0-75 52.5-127.5T620-520q75 0 127.5 52.5T800-340q0 26-7.5 50T772-244l108 108-56 56ZM620-240q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm220-320h-80v-200h-80v120H280v-120h-80v560h200v80H200q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h167q11-35 43-57.5t70-22.5q40 0 71.5 22.5T594-840h166q33 0 56.5 23.5T840-760v200ZM480-760q17 0 28.5-11.5T520-800q0-17-11.5-28.5T480-840q-17 0-28.5 11.5T440-800q0 17 11.5 28.5T480-760Z'/></svg>"
+    },
+    {
+      "category": "Store Design & Development",
+      "items": [
+        "Design visually stunning, conversion-optimized Shopify stores",
+        "Develop custom themes aligned with your brand identity",
+        "Ensure responsive, mobile-first, and user-friendly experiences"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M200-120v-720h560v720H200Zm160-80h240v-160H360v160Zm0-240h240v-160H360v160Z'/></svg>"
+    },
+    {
+      "category": "Global Sourcing & Logistics",
+      "items": [
+        "Connect with reliable global manufacturers and suppliers",
+        "Ensure product quality, competitive pricing, and cost efficiency",
+        "Assist in transitioning from dropshipping to private-label branding with custom packaging"
+      ],
+      "icon":  "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z'></path></svg>"
+    },
+    {
+      "category": "Marketing & Sales Optimization",
+      "items": [
+        "Implement high-ROI marketing funnels and ad campaigns",
+        "Run TikTok, Meta, and email campaigns for traffic and conversions",
+        "Build customer trust and nurture repeat buyers"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='m136-240-56-56 296-298 160 160 208-206H640v-80h240v240h-80v-104L536-320 376-480 136-240Z'/></svg>"
+    }
+  ],
+  "drivers_title": "Benefits for Your Brand",
+  "drivers": [
+    {
+      "title": "Faster Launches",
+      "description": "Get your Shopify store live quickly with optimized products and designs.",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M496-480ZM80-160l240-320L80-800h520q19 0 36 8.5t28 23.5l216 288-5 7q-27-18-58.5-29.5T751-518L600-720H240l180 240-180 240h200q0 21 3 41t9 39H80Z'/></svg>"
+    },
+    {
+      "title": "Conversion-Focused Stores",
+      "description": "Every design element is optimized to maximize sales and customer trust.",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M640-440v-80h160v80H640Zm48 280-128-96 48-64 128 96-48 64Zm-80-480-48-64 128-96 48 64-128 96ZM120-360v-240h160l200-200v640L280-360H120Z'/></svg>"
+    },
+    {
+      "title": "Scalable Growth",
+      "description": "Easily transition from product testing to long-term brand building.",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='m136-240-56-56 212-212q35-35 85-35t85 35l46 46q12 12 28.5 12t28.5-12l178-178H640v-80h240v240h-80v-103L621-405q-35 35-85 35t-85-35l-47-47q-11-11-28-11t-28 11L136-240Z'/></svg>"
+    },
+    {
+      "title": "Seamless Operations",
+      "description": "From sourcing to fulfillment, we simplify backend operations for smooth growth.",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='m280-80 160-300-320-40 480-460h80L520-580l320 40L360-80h-80Z'/></svg>"
+    }
+  ],
+  "why_us": [
+    "4+ years of Shopify and e-commerce expertise",
+    "Hands-on experience scaling from dropshipping to private label",
+    "Proven record of high-ROI Shopify stores",
+    "Research → Design → Sourcing → Marketing → Sales",
+    "Focus on long-term brand success, not just short-term sales"
+  ],
+  "cta": {
+    "title": "Ready to Launch or Scale Your Shopify Store?",
+    "description": "At Meticon Solutions, we don’t just create online stores — we build sustainable e-commerce ecosystems. Whether you’re launching your first Shopify store, rebranding an existing one, or scaling into private-label success, we have the expertise to make it happen.",
+    "note": "🚀 Let’s build your Shopify growth story today."
+  }
+},
   "graphic-design": {
     "title": "Graphic Design & Creative Branding",
     "subtitle": "Visual Design Agency",
