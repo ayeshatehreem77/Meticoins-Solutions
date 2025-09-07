@@ -1,19 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Studies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #222;
+    }
+
+    .services-section {
+      display: flex;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    /* LEFT (titles) */
+    .left-container {
+      flex: 1;
+      max-width: 400px;
+      background: #fff;
+      padding: 2rem;
+      border-right: 1px solid #eee;
+      overflow-y: auto;
+      max-height: 100vh;
+    }
+
+    .feature-item {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s, border-left 0.3s;
+      border-left: 4px solid transparent;
+    }
+    .feature-item:hover {
+      background: #f9f9f9;
+    }
+    .feature-item.active {
+      background: #f1f1f1;
+      border-left: 4px solid #007bff;
+    }
+    .feature-item h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    .feature-description {
+      display: none;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+      line-height: 1.5;
+    }
+    .feature-item.active .feature-description {
+      display: block;
+    }
+
+    /* RIGHT (sticky preview) */
+    .right-container {
+      flex: 2;
+      position: sticky;
+      top: 20px;
+      height: 90vh;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      color: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+
+    .right-container img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.35;
+      z-index: 0;
+    }
+
+    .highlight-box {
+      position: relative;
+      max-width: 600px;
+      background: rgba(0,0,0,0.6);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+    .highlight-box h2 {
+      margin: 0 0 1rem;
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+    .highlight-box ul {
+      list-style: disc;
+      padding-left: 1.2rem;
+      margin: 0;
+    }
+    .highlight-box li {
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 992px) {
+      .services-section {
+        flex-direction: column;
+      }
+      .left-container {
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+        max-height: auto;
+      }
+      .right-container {
+        position: relative;
+        height: auto;
+        min-height: 60vh;
+      }
+    }
+  </style>
 </head>
-
 <body>
-    <!-- Calendly badge widget begin -->
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script
-        type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/hafsa032173/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
-    <!-- Calendly badge widget end -->
-</body>
 
+<section class="services-section">
+  <!-- LEFT -->
+  <div class="left-container" id="feature-list"></div>
+
+  <!-- RIGHT -->
+  <div class="right-container">
+    <img id="feature-image" src="" alt="Preview">
+    <div class="highlight-box">
+      <h2 id="feature-title"></h2>
+      <ul id="feature-highlights"></ul>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Inline JSON data (you can move this to features.json if you want)
+  const data = [
+    {
+    "title": "Catch-All Campaign Success",
+    "description": "We helped a client scale their Amazon PPC results with a well-structured Catch-All campaign. By capturing broader search traffic and refining targeting, we significantly boosted sales while optimizing ad spend.",
+    "highlights": [
+      "Increased conversions and sales volume",
+      "Improved ROI through data-driven bidding strategies",
+      "Reduced ACOS for better cost efficiency",
+      "Expanded keyword reach, driving consistent growth",
+      "Strengthened brand presence and consistent sales growth"
+    ],
+    "image": "Assets/catch-all.png"
+  },
+  {
+    "title": "25% Conversion Rate in a Competitive Niche",
+    "description": "In a highly competitive Amazon category, we optimized a brand’s listings and PPC campaigns to achieve an exceptional 25% conversion rate. By combining precise keyword targeting, compelling creatives, and data-backed optimization, we turned clicks into consistent sales.",
+    "highlights": [
+      "Achieved 25% conversion rate despite heavy competition",
+      "Improved ROI through continuous campaign optimization",
+      "Balanced ACOS while scaling ad spend for growth",
+      "Strengthened brand presence in a saturated market"
+    ],
+    "image": "images/conversion.jpg"
+  },
+  {
+    "title": "Driving Organic Growth with Amazon Posts",
+    "description": "We leveraged Amazon Posts (images & videos) to boost brand visibility and organic engagement. By sharing consistent, keyword-rich creatives, we improved product discovery, nurtured brand recall, and drove additional traffic to listings — all without extra ad spend.",
+    "highlights": [
+      "Increased organic impressions through consistent Posts strategy",
+      "Improved click-through rate (CTR) with engaging images & videos",
+      "Strengthened brand authority and visibility across the Amazon ecosystem",
+      "Drove incremental sales without relying solely on ads"
+    ],
+    "image": "images/amazon-posts.jpg"
+  },
+  {
+    "title": "Boosting Sales with Amazon Brand Referral Bonus",
+    "description": "We strategically implemented Amazon’s Brand Referral Bonus program by creating custom links for external traffic campaigns. This approach not only drove high-quality traffic from outside Amazon but also rewarded the brand with bonus credits — directly improving profitability.",
+    "highlights": [
+      "Boosted external traffic & rankings",
+      "Gained bonus rewards per sale",
+      "Improved profit margins"
+    ],
+    "image": "images/referral-bonus.jpg"
+  },
+  {
+    "title": "Brand Store Creation",
+    "description": "We have extensive experience in building professional, conversion-focused Amazon Brand Stores that strengthen brand identity and improve customer shopping experience.",
+    "highlights": [
+      "Engaging, custom-designed layouts",
+      "Enhanced brand storytelling with visuals & A+ content",
+      "Improved navigation for higher conversions"
+    ],
+    "image": "images/brand-store.jpg"
+  },
+  {
+    "title": "Inventory Planning & Management",
+    "description": "Smart inventory planning keeps your Amazon business profitable and running without disruptions. We make sure you always have the right stock, at the right time, in the right place.",
+    "highlights": [
+      "Accurate demand forecasting & replenishment planning",
+      "Streamlined FBA & FBM inventory management",
+      "Prevention of stockouts and excess storage fees",
+      "Optimized cash flow through balanced inventory levels"
+    ],
+    "image": "images/inventory.jpg"
+  },
+  {
+    "title": "Amazon Payouts & Profit Tracking",
+    "description": "Clear financial visibility is essential to running a healthy Amazon business. We help you stay on top of your payouts, track profitability, and make data-driven decisions with confidence.",
+    "highlights": [
+      "Detailed profit & loss tracking",
+      "Monitoring Amazon payouts and cash flow cycles",
+      "Expense breakdown (PPC, fees, COGS, storage)",
+      "Ensuring accurate margin calculations for sustainable growth"
+    ],
+    "image": "images/payouts.jpg"
+  },
+  {
+    "title": "Trademark & Amazon Brand Registry",
+    "description": "Securing your brand’s identity is the first step toward long-term success on Amazon. We guide you through trademark registration and help you unlock the full benefits of Amazon Brand Registry.",
+    "highlights": [
+      "Assist with trademark filing and registration",
+      "Set up and manage Amazon Brand Registry",
+      "Protect against hijackers and counterfeit sellers",
+      "Unlock access to A+ Content, Sponsored Brands Ads & Brand Analytics"
+    ],
+    "image": "images/brand-registry.jpg"
+  },
+  {
+    "title": "Amazon Vine Program",
+    "description": "We leverage Amazon Vine to generate authentic reviews and build trust for new product launches. By inviting top reviewers, we help brands gain credibility and accelerate early sales momentum.",
+    "highlights": [
+      "Enroll eligible products in the Vine program",
+      "Manage review flow and monitor customer feedback",
+      "Optimize listings to highlight Vine reviews",
+      "Use insights to refine future launches"
+    ],
+    "image": "images/vine.jpg"
+  }
+  ];
+
+  const list = document.getElementById("feature-list");
+  const title = document.getElementById("feature-title");
+  const highlights = document.getElementById("feature-highlights");
+  const image = document.getElementById("feature-image");
+
+  data.forEach((feature, index) => {
+    const item = document.createElement("div");
+    item.classList.add("feature-item");
+    if (index === 0) item.classList.add("active");
+    item.innerHTML = `<h3>${feature.title}</h3><p class="feature-description">${feature.description}</p>`;
+    item.addEventListener("click", () => {
+      document.querySelectorAll(".feature-item").forEach(i => i.classList.remove("active"));
+      item.classList.add("active");
+
+      title.textContent = feature.title;
+      highlights.innerHTML = feature.highlights.map(h => `<li>${h}</li>`).join("");
+      image.src = feature.image;
+    });
+    list.appendChild(item);
+  });
+
+  // Load first by default
+  title.textContent = data[0].title;
+  highlights.innerHTML = data[0].highlights.map(h => `<li>${h}</li>`).join("");
+  image.src = data[0].image;
+</script>
+
+</body>
 </html>
