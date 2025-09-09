@@ -281,7 +281,7 @@
         "Develop custom themes aligned with your brand identity",
         "Ensure responsive, mobile-first, and user-friendly experiences"
       ],
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M200-120v-720h560v720H200Zm160-80h240v-160H360v160Zm0-240h240v-160H360v160Z'/></svg>"
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='40px' viewBox='0 -960 960 960' width='40px' fill='#f57852'><path d='M355.33-516 444-605l-68.67-69-46.66 46.67L282-674l46.33-46.67-65-64.33-89 89 181 180Zm340 341.67 89-89.67-65-65-46.66 46.33L626-329.33 672.33-376 604-444l-88.67 88.67 180 181Zm13.34-599 65.66 65.66-65.66-65.66ZM280.67-120H120v-160.67l187.67-187.66L80-696l182.67-184L492-651.33l169-169.34q10-10 22.33-14.66 12.34-4.67 25-4.67 12.67 0 25 4.67 12.34 4.66 22.34 14.66l65 65.34q10 10 14.66 22.33 4.67 12.33 4.67 25t-4.67 24.83Q830.67-671 820.67-661l-169 169.33L880-263.33 696.67-80.67 469-308.33 280.67-120Zm-94-66.67H252l392.67-393L579-645.33 186.67-252v65.33ZM612-612.33l-33-33 65.67 65.66L612-612.33Z'/></svg>"
     },
     {
       "category": "Global Sourcing & Logistics",
@@ -338,82 +338,111 @@
     "note": "🚀 Let’s build your Shopify growth story today."
   }
 },
-  "graphic-design": {
-    "title": "Graphic Design & Creative Branding",
-    "subtitle": "Visual Design Agency",
-    "description": "We craft stunning visuals and brand assets that tell your story, build trust, and create a strong identity across digital and print platforms.",
-    "sub_services": "Our Complete Amazon Services",
-    "services": [
-      {
-        "category": "Branding & Identity",
-        "items": [
-          "Logo design",
-          "Color palette & typography",
-          "Brand guidelines"
-        ],
-        "icon": "🎨"
-      },
-      {
-        "category": "Digital Design",
-        "items": [
-          "Social media graphics",
-          "Web banners & sliders",
-          "Email templates"
-        ],
-        "icon": "💻"
-      },
-      {
-        "category": "Print Design",
-        "items": [
-          "Business cards & brochures",
-          "Flyers & posters",
-          "Packaging design"
-        ],
-        "icon": "🖨️"
-      },
-      {
-        "category": "Creative Content",
-        "items": [
-          "Infographics",
-          "Custom illustrations",
-          "Presentation design"
-        ],
-        "icon": "🖌️"
-      },
-      {
-        "category": "Motion Graphics",
-        "items": [
-          "Animated logos",
-          "Promo videos",
-          "Explainer animations"
-        ],
-        "icon": "🎥"
-      }
-    ],
-    "drivers_title": "The 4 Core Drivers of Amazon Success",
-    "drivers": [
-      {
-        "title": "Strong Branding",
-        "description": "Establish a recognizable and trustworthy identity.",
-        "icon": "🏷️"
-      },
-      {
-        "title": "Engaging Visuals",
-        "description": "Capture audience attention with creative designs.",
-        "icon": "✨"
-      },
-      {
-        "title": "Consistency",
-        "description": "Maintain brand coherence across all platforms.",
-        "icon": "📐"
-      },
-      {
-        "title": "Conversion Focus",
-        "description": "Use design to drive action and improve engagement rates.",
-        "icon": "📊"
-      }
-    ]
+  "graphic_design": {
+  "title": "Creative Graphic Design Solutions to Elevate Your Brand",
+  "subtitle": "Professional Design Services for Lasting Impressions",
+  "description": "Meticon Solutions creates stunning, strategic designs that build strong brands and drive growth.",
+  "sub_services": "Our Core Expertise",
+  "services": [
+    {
+      "category": "Brand Understanding & Strategy",
+      "items": [
+        "Understand your brand’s vision, audience, and industry",
+        "Deliver customized designs that reflect your unique identity and goals",
+        "Ensure every design solves a problem and serves a purpose"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='40px' viewBox='0 -960 960 960' width='40px' fill='#f57852'><path d='M305.67-160q-9 0-16.84-4.5Q281-169 276.67-177l-82-146.33h66.66l41.34 80h90.66v-33.34h-70.66l-41.34-80H176.67l-61-106.66q-2-4.34-3.17-8.34t-1.17-8.33q0-2.67 4.34-16.67l61-106.66h104.66l41.34-80h70.66v-33.34h-90.66l-41.34 80h-66.66l82-146.33q4.33-8 12.16-12.5 7.84-4.5 16.84-4.5h111q14.33 0 23.83 9.5 9.5 9.5 9.5 23.83v170h-76.67L340-563.33h110v126.66h-94.67l-39.33-80h-96l-33.33 33.34h108l40 80H450v210q0 14.33-9.5 23.83-9.5 9.5-23.83 9.5h-111Zm261 0q-30.34 0-51.84-21.5-21.5-21.5-21.5-51.83 0-21.67 11-38.84 11-17.16 29-26.16v-363.34q-18-9-29-26.16-11-17.17-11-38.84 0-30.33 21.5-51.83t51.84-21.5q30.33 0 51.83 21.5t21.5 51.83q0 21.67-11 38.84-11 17.16-29 26.16V-552l93.33-56q-2-32 19.84-55.33 21.83-23.34 53.5-23.34 30.33 0 51.83 21.5t21.5 51.84q0 30.33-21.5 51.83T766.67-540q-11 0-20.84-2.83-9.83-2.84-18.16-7.84L625.33-489l111 88.67q7-3 14.67-4.67t15.67-1.67q30.33 0 51.83 21.5t21.5 51.84q0 30.33-21.5 51.83T766.67-260q-35.67 0-57.17-27.33Q688-314.67 695-348l-95-76.33v127q17.33 9 28.17 25.83Q639-254.67 639-233.33q0 30.33-21 51.83T566.67-160Z'/></svg>"
+    },
+    {
+      "category": "Logo & Brand Identity",
+      "items": [
+        "Design memorable logos and complete brand identity systems",
+        "Create a consistent look across all touchpoints",
+        "Build a strong first impression that lasts"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='40px' viewBox='0 -960 960 960' width='40px' fill='#f57852'><path d='M446.5-80q-12.5 0-25-4.83-12.5-4.84-22.5-14.5l-299.33-300q-10-9.34-14.84-21.84-4.83-12.5-4.83-25t4.7-25q4.71-12.5 14.97-22.5l366-366.33q9.2-9.17 21.74-14.58 12.54-5.42 25.92-5.42h300.34q27.5 0 47.08 19.58 19.58 19.59 19.58 47.09v299.66q0 13.4-5.33 25.53Q869.67-476 860.67-467l-367 367.67Q483.67-90 471.33-85 459-80 446.5-80Zm-1.17-65.33 368.34-370v-298h-300L146-445.33l299.33 300Zm265-510.67q22.34 0 38.5-16.17Q765-688.33 765-710.67q0-22.33-16.17-38.5-16.16-16.16-38.5-16.16-22.33 0-38.5 16.16-16.16 16.17-16.16 38.5 0 22.34 16.16 38.5Q688-656 710.33-656ZM480-479.33Z'/></svg>"
+    },
+    {
+      "category": "Marketing & Social Media Graphics",
+      "items": [
+        "Engaging visuals for social media to grow your online presence",
+        "Flyers, brochures, posters, and catalogs for campaigns",
+        "Custom graphics designed to boost engagement and conversions"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='40px' viewBox='0 -960 960 960' width='40px' fill='#f57852'><path d='M726.67-446.67v-66.66H880v66.66H726.67ZM776-160l-123.33-92 40-53.33 123.33 92L776-160Zm-81.33-495.33-40-53.34L776-800l40 53.33-121.33 91.34ZM206.67-200v-160h-60q-27.5 0-47.09-19.58Q80-399.17 80-426.67v-106.66q0-27.5 19.58-47.09Q119.17-600 146.67-600H320l200-120v480L320-360h-46.67v160h-66.66Zm246.66-158v-244L338-533.33H146.67v106.66H338L453.33-358ZM560-346v-268q27 24 43.5 58.5T620-480q0 41-16.5 75.5T560-346ZM300-480Z'/></svg>"
+    },
+    {
+      "category": "UI/UX & Custom Designs",
+      "items": [
+        "Design intuitive website and app user experiences",
+        "Custom packaging designs and illustrations",
+        "Modern, scalable, and user-friendly visuals tailored for your audience"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='40px' viewBox='0 -960 960 960' width='40px' fill='#f57852'><path d='M355.33-516 444-605l-68.67-69-46.66 46.67L282-674l46.33-46.67-65-64.33-89 89 181 180Zm340 341.67 89-89.67-65-65-46.66 46.33L626-329.33 672.33-376 604-444l-88.67 88.67 180 181Zm13.34-599 65.66 65.66-65.66-65.66ZM280.67-120H120v-160.67l187.67-187.66L80-696l182.67-184L492-651.33l169-169.34q10-10 22.33-14.66 12.34-4.67 25-4.67 12.67 0 25 4.67 12.34 4.66 22.34 14.66l65 65.34q10 10 14.66 22.33 4.67 12.33 4.67 25t-4.67 24.83Q830.67-671 820.67-661l-169 169.33L880-263.33 696.67-80.67 469-308.33 280.67-120Zm-94-66.67H252l392.67-393L579-645.33 186.67-252v65.33ZM612-612.33l-33-33 65.67 65.66L612-612.33Z'/></svg>"
+    },
+    {
+      "category": "Process & Support",
+      "items": [
+        "Smooth design process with clear communication",
+        "Timely delivery with revisions until you’re satisfied",
+        "Dedicated support for every design requirement"
+      ],
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='40px' viewBox='0 -960 960 960' width='40px' fill='#f57852'><path d='M287.33-271.33q-40.66 34.33-84.83 31-44.17-3.34-76.83-30.67Q93-298.33 81.83-341.83q-11.16-43.5 16.5-89.5L178-564q-26.33-21.33-41.83-52.76-15.5-31.42-15.5-67.91 0-64.35 45.82-110.17 45.83-45.83 110.18-45.83 64.35 0 110.17 45.83 45.83 45.82 45.83 110.17t-45.83 110.18q-45.82 45.82-110.17 45.82-10.2 0-20.4-1.33T237-534l-81.67 137.33q-13 21.34-8.21 41.91 4.78 20.57 20.33 33.5Q183-308.33 204-306.83q21 1.5 40-14.5l428.67-368.34Q713.33-724 758-720.83q44.67 3.16 77.33 30.5Q868-663 879-619.17q11 43.84-16.67 89.84l-79 132.66q26.34 21.34 41.84 52.76 15.5 31.42 15.5 67.91 0 64.35-46.03 110.18Q748.61-120 683.97-120T574-165.82Q528.67-211.65 528.67-276q0-64.35 45.33-110.17Q619.33-432 684-432q10.15 0 19.74 1 9.59 1 18.93 3.67l82-136.67q13-21.33 8.21-41.9-4.78-20.57-20.33-33.5Q777-652.33 756-653.83q-21-1.5-40 14.5l-428.67 368Zm-10.56-324q36.9 0 63.06-26.28Q366-647.88 366-684.77q0-36.9-26.27-63.06Q313.45-774 276.56-774t-63.06 26.27q-26.17 26.28-26.17 63.17t26.28 63.06q26.27 26.17 63.16 26.17Zm407.32 408.66q37.09 0 63.5-26.27Q774-239.21 774-276.11q0-36.89-26.41-63.06-26.41-26.16-63.5-26.16t-62.92 26.27q-25.84 26.27-25.84 63.17 0 36.89 25.84 63.06 25.83 26.16 62.92 26.16Zm-407.42-498Zm408 408.67Z'/></svg>"
+    }
+  ],
+  "drivers_title": "Our Experience",
+"drivers": [
+  {
+    "title": "Proven Global Experience",
+    "description": "50+ clients served across 10+ countries with expertise spanning startups, e-commerce, agencies, and established businesses.",
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M155.34-113.28q-52.97 0-89.79-36.86-36.81-36.85-36.81-89.8 0-52.95 36.87-90.37 36.87-37.41 89.85-37.41 10.81 0 20.8 2 10 2 19.71 4.52l156.44-214.58q-18.79-21.29-28.96-48.25-10.17-26.97-10.17-55.9 0-70.04 48.53-118.91 48.54-48.88 118.1-48.88 69.57 0 118.69 48.88 49.12 48.87 49.12 118.91 0 28.85-10.56 55.78-10.55 26.93-28.33 48.37L765.08-360.2q8.66-3.52 18.96-5.52 10.3-2 20.09-2 53.56 0 90.85 37.16 37.28 37.17 37.28 90.56 0 52.98-37.16 89.85t-90.56 36.87q-52.97 0-89.84-36.87-36.87-36.87-36.87-89.85 0-21.85 6.64-39.95 6.64-18.09 18.4-35.03L547.91-527.76q-7.23 4.17-14.39 5.64-7.15 1.47-14.37 4.06v157.3q38.52 12.48 63.55 45.35 25.02 32.87 25.02 75.2 0 53.07-37.16 90-37.17 36.93-90.56 36.93-52.98 0-89.85-36.87T353.28-240q0-42.84 24.29-75.68 24.28-32.84 64.28-45.08v-157.3q-8.22-2.59-15.37-4.06-7.16-1.47-13.39-5.64L257.13-314.57q11.52 15.53 18.9 34.25 7.38 18.71 7.38 40.32 0 52.98-37.33 89.85-37.34 36.87-90.74 36.87Zm1.07-74.44q22.62 0 37.95-15.04Q209.7-217.8 209.7-240q0-22.62-15.34-37.95-15.34-15.33-37.96-15.33-22.63 0-37.45 15.33-14.82 15.34-14.82 37.97t15.04 37.44q15.05 14.82 37.24 14.82ZM480-680Zm0 492.28q22.62 0 37.95-15.04 15.33-15.04 15.33-37.24 0-22.62-15.33-37.95-15.34-15.33-37.97-15.33t-37.44 15.33q-14.82 15.34-14.82 37.97t15.04 37.44q15.04 14.82 37.24 14.82Zm324.43 0q22.73 0 38.07-15.04 15.33-15.04 15.33-37.24 0-22.62-15.34-37.95-15.34-15.33-38.08-15.33-22.75 0-37.45 15.33-14.7 15.34-14.7 37.97t14.93 37.44q14.92 14.82 37.24 14.82ZM156.41-240ZM480-240Zm324.54 0ZM479.95-587.96q38.07 0 65.58-26.72 27.51-26.73 27.51-65.27 0-38.07-27.46-65.58-27.46-27.51-65.53-27.51t-65.08 27.46q-27.01 27.46-27.01 65.53t26.72 65.08q26.73 27.01 65.27 27.01Z'/></svg>"
   },
+  {
+    "title": "Proven Results",
+    "description": "100+ completed projects delivering designs that increased conversions, boosted engagement, and strengthened brand recall.",
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M120-120v-80l80-80v160h-80Zm160 0v-240l80-80v320h-80Zm160 0v-320l80 81v239h-80Zm160 0v-239l80-80v319h-80Zm160 0v-400l80-80v480h-80ZM120-327v-113l280-280 160 160 280-280v113L560-447 400-607 120-327Z'/></svg>"
+  },
+  {
+    "title": "Impact-Driven Designs",
+    "description": "Designs that have helped clients increase conversions, boost engagement, and strengthen brand recall",
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' height='38px' viewBox='0 -960 960 960' width='38px' fill='#f57852'><path d='M468-240q-96-5-162-74t-66-166q0-100 70-170t170-70q97 0 166 66t74 162.67L650-513q-11.67-60.67-58.67-100.5T480-653.33q-72 0-122.67 50.66Q306.67-552 306.67-480q0 63.67 39.83 111T447-310l21 70Zm48 158q-9 1.33-18 1.67-9 .33-18 .33-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 9-.33 18-.34 9-1.67 18l-64.67-20v-16q0-139.33-97-236.33t-236.33-97q-139.33 0-236.33 97t-97 236.33q0 139.33 97 236.33t236.33 97h16L516-82Zm305 22L650-231 600-80 480-480l400 120-151 50 171 171-79 79Z'/></svg>"
+  }
+],
+"tools_title": "Tools & Expertise",
+  "tools": [
+    {
+      "title": "Adobe Photoshop",
+      "logo": "Assets/adobe-photoshop.svg"
+    },
+    {
+      "title": "Adobe Illustrator",
+      "logo": "Assets/adobe-illustrator.svg"
+    },
+    {
+      "title": "CorelDRAW",
+      "logo": "Assets/corel-draw.svg"
+    },
+    {
+      "title": "Canva",
+      "logo": "Assets/canva.svg"
+    },
+    {
+      "title": "Figma",
+      "logo": "Assets/figma.svg"
+    }
+  ],
+  "why_us": [
+    "Creative, experienced designers with diverse portfolios",
+    "Affordable pricing without compromising on quality",
+    "Fast turnaround & responsive support",
+    "Unlimited dedication until your brand gets the design it deserves"
+  ],
+  "cta": {
+    "title": "Ready to Transform Your Brand Identity?",
+    "description": "At Meticon Solutions, design is not just art — it’s strategy. Every visual we create builds trust, communicates your values, and inspires action that leads to growth.",
+    "note": "🎨 Let’s create designs that elevate your brand today."
+  }
+},
   "web_development": {
     "title": "Web Development Solutions",
     "subtitle": "Custom Websites & Scalable Platforms",
@@ -429,7 +458,9 @@
           "Cross-browser compatibility",
           "Pixel-perfect UI/UX implementation"
         ],
-        "icon": "💻"
+  "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M64.67-160Q37.99-160 19-179.58 0-199.17 0-226.67h147.33q-27 0-46.83-19.83t-19.83-46.83v-480q0-27 19.83-46.84Q120.33-840 147.33-840h665.34q27 0 46.83 19.83 19.83 19.84 19.83 46.84v480q0 27-19.83 46.83t-46.83 19.83H960q0 27.67-19.58 47.17-19.59 19.5-47.09 19.5H64.67ZM480-188q15.3 0 25.65-10.35Q516-208.7 516-224q0-15.3-10.35-25.65Q495.3-260 480-260q-15.3 0-25.65 10.35Q444-239.3 444-224q0 15.3 10.35 25.65Q464.7-188 480-188ZM147.33-293.33h665.34v-480H147.33v480Zm0 0v-480 480Z'/></svg>"
+
+
       },
       {
         "category": "Backend Development",
@@ -440,7 +471,7 @@
           "API development & integration",
           "Authentication & security implementation"
         ],
-        "icon": "🖥️"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M330.67-120v-36.67L413.33-240H146.67q-27 0-46.84-19.83Q80-279.67 80-306.67v-466.66q0-27 19.83-46.84Q119.67-840 146.67-840h666.66q27 0 46.84 19.83Q880-800.33 880-773.33v466.66q0 27-19.83 46.84Q840.33-240 813.33-240H546.67l82.66 83.33V-120H330.67Zm-184-290.67h666.66v-362.66H146.67v362.66Zm0 0v-362.66 362.66Z'/></svg>"
       },
       {
         "category": "E-Commerce Development",
@@ -451,7 +482,7 @@
           "Payment gateway integrations",
           "Order management & automation"
         ],
-        "icon": "🛒"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M284.53-80.67q-30.86 0-52.7-21.97Q210-124.62 210-155.47q0-30.86 21.98-52.7Q253.95-230 284.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83Zm400 0q-30.86 0-52.7-21.97Q610-124.62 610-155.47q0-30.86 21.98-52.7Q653.95-230 684.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83ZM238.67-734 344-515.33h285.33l120-218.67H238.67ZM206-800.67h589.38q22.98 0 34.97 20.84 11.98 20.83.32 41.83L693.33-490.67q-11 19.34-28.87 30.67-17.87 11.33-39.13 11.33H324l-52 96h487.33V-286H278q-43 0-63-31.83-20-31.84-.33-68.17l60.66-111.33-149.33-316H47.33V-880h121.34L206-800.67Zm138 285.34h285.33H344Z'/></svg>"
       },
       {
         "category": "CMS Development",
@@ -462,7 +493,7 @@
           "Content migration & optimization",
           "Admin panel customization"
         ],
-        "icon": "📑"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M186.67-120q-27.5 0-47.09-19.58Q120-159.17 120-186.67v-586.66q0-27.5 19.58-47.09Q159.17-840 186.67-840h192.66q7.67-35.33 35.84-57.67Q443.33-920 480-920t64.83 22.33Q573-875.33 580.67-840h192.66q27.5 0 47.09 19.58Q840-800.83 840-773.33v586.66q0 27.5-19.58 47.09Q800.83-120 773.33-120H186.67Zm0-66.67h586.66v-586.66H186.67v586.66ZM280-280h275.33v-66.67H280V-280Zm0-166.67h400v-66.66H280v66.66Zm0-166.66h400V-680H280v66.67Zm200-181.34q13.67 0 23.5-9.83t9.83-23.5q0-13.67-9.83-23.5t-23.5-9.83q-13.67 0-23.5 9.83t-9.83 23.5q0 13.67 9.83 23.5t23.5 9.83Zm-293.33 608v-586.66 586.66Z'/></svg>"
       },
       {
         "category": "Performance & SEO Optimization",
@@ -473,7 +504,7 @@
           "On-page SEO best practices",
           "Image & asset compression"
         ],
-        "icon": "⚡"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M284-79.33 451.33-384 120-424l490-456.67h66L508.67-576 840-536 350-79.33h-66Zm185.33-207 221.67-200-287.67-35.34 87-151.66-222 200.66 287.34 34.34-86.34 152ZM480-480Z'/></svg>"
       },
       {
         "category": "Maintenance & Support",
@@ -484,7 +515,7 @@
           "Performance audits",
           "Feature enhancements"
         ],
-        "icon": "🔧"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M698.67-129.33 446-384q-22 8-44.17 12.67-22.16 4.66-45.83 4.66-98.06 0-166.69-68.44-68.64-68.45-68.64-166.22 0-32.67 8.77-63.1Q138.21-694.85 154-722l145.33 145.33L384.67-658l-148-148q26.94-16.11 57.14-25.05Q324-840 356-840q99.44 0 169.06 69.61 69.61 69.61 69.61 169.06 0 23.66-4.67 45.83-4.67 22.17-12.67 44.17l254 252.66q11.34 11.31 11.34 27.32 0 16.02-11.34 27.35l-78.66 74.67Q741.54-118 725.77-118q-15.77 0-27.1-11.33ZM727-195.67l35.67-35.66-267.34-267.34Q512-519.33 520-547.17q8-27.83 8-54.16 0-70-49.83-119.5Q428.33-770.33 362-774l92.67 94q10 10 9.66 23.67-.33 13.66-10.33 23.66l-131.33 126q-10.19 9.34-23.76 9.34-13.58 0-22.91-9.34L186-596q5 70.33 54.28 116.5T356-433.33q25.33 0 52.67-8 27.33-8 48.33-24.34l270 270ZM474.67-485.33Z'/></svg>"
       }
     ],
     "drivers_title": "The 4 Core Drivers of Web Success",
@@ -492,22 +523,22 @@
       {
         "title": "Responsive Design",
         "description": "Ensures a seamless experience across all devices and screen sizes.",
-        "icon": "📱"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M494-540ZM80-160v-66.67h414V-160H80Zm106.67-120q-27 0-46.84-19.83Q120-319.67 120-346.67v-386.66q0-27 19.83-46.84Q159.67-800 186.67-800h586.66q27 0 46.84 19.83Q840-760.33 840-733.33H186.67v386.66H494V-280H186.67Zm626.66 53.33V-600h-186v373.33h186ZM610.67-160q-20.34 0-35.17-14.83-14.83-14.84-14.83-35.17v-406.67q0-20.33 14.83-35.16 14.83-14.84 35.17-14.84H830q20.33 0 35.17 14.84Q880-637 880-616.67V-210q0 20.33-14.83 35.17Q850.33-160 830-160H610.67Zm110-340q12.33 0 21.16-9 8.84-9 8.84-21 0-12.33-8.84-21.17Q733-560 720.35-560q-11.68 0-20.68 8.83-9 8.84-9 21.49 0 11.68 9 20.68t21 9Zm0 86.67Z'/></svg>"
       },
       {
         "title": "Scalability",
         "description": "Websites that grow with your business and adapt to future needs.",
-        "icon": "🚀"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='m200-553.67 96.67 41Q313.33-546 332-578q18.67-32 40-62l-71.33-14.33L200-553.67ZM350-472l126.67 126.33q52-22.66 101.33-55.66T662-469q77.33-77.33 115.83-162.5T816.67-812q-95.34.33-180.67 38.83-85.33 38.5-162.67 115.84-34.66 34.66-67.66 84Q372.67-524 350-472Zm212-85.67q-21-21-21-51.83t21-51.83q21-21 52-21t52 21q21 21 21 51.83t-21 51.83q-21 21-52 21t-52-21Zm-3.67 362.34L659-296l-14.33-71.33q-30 21.33-62 39.83t-65.34 35.17l41 97ZM880-875.67q12.33 131-30.5 243.84Q806.67-519 706-418.33q-.67.66-1.33 1.33-.67.67-1.34 1.33l21.34 106.34Q728-292.67 723-277q-5 15.67-17 27.67L536-78.67l-84.67-197.66L281-446.67 83.33-531.33l170.34-170q12-12 27.83-17 15.83-5 32.5-1.67l106.33 21.33q.67-.66 1.34-1 .66-.33 1.33-1 100.67-100.66 213.33-144Q749-888 880-875.67Zm-728.33 552q35-35 85.5-35.5t85.5 34.5q35 35 34.5 85.5t-35.5 85.5q-25.67 25.67-81.5 43-55.84 17.34-162.84 32Q92-185.67 109-241.83q17-56.17 42.67-81.84Zm47 47.34Q186-263 175.33-232.83q-10.66 30.16-17.33 72.5 42.33-6.67 72.5-17.17 30.17-10.5 43.5-23.17 16.67-15.33 17.33-38Q292-261.33 276-278q-16.67-16-39.33-15.5-22.67.5-38 17.17Z'/></svg>"
       },
       {
         "title": "Security & Performance",
         "description": "Protects your users while delivering fast load times.",
-        "icon": "🔒"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M480-80q-139.67-35-229.83-161.5Q160-368 160-520v-240l320-120 320 120v240q0 152-90.17 278.5Q619.67-115 480-80Zm0-69.33q103-33.34 171-125.17T730.67-480H480v-328.33l-253.33 94.66V-520q0 11.67.33 19.67.33 8 2.33 20.33H480v330.67Z'/></svg>"
       },
       {
         "title": "User Experience",
         "description": "Drives engagement and conversions through intuitive design.",
-        "icon": "🎯"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewBox='0 -960 960 960' fill='#f57852'><path d='M479.93-673.33q-26.26 0-44.76-18.57-18.5-18.57-18.5-44.83 0-26.27 18.56-44.77Q453.8-800 480.07-800q26.26 0 44.76 18.57 18.5 18.56 18.5 44.83t-18.56 44.77q-18.57 18.5-44.84 18.5ZM413.33-160v-173.33h-74l88.34-250.34q6-16 20.25-26.16Q462.17-620 480.08-620q17.92 0 32.09 10.17 14.16 10.16 20.16 26.16l88.34 250.34h-74V-160H413.33Z'/></svg>"
       }
     ]
   }
