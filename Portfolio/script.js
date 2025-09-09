@@ -239,6 +239,7 @@ function openServiceModal(service) {
   const descEl = modal.querySelector("#service-description");
   const sectionsEl = modal.querySelector("#service-sections");
   const driversEl = modal.querySelector("#service-drivers");
+  const toolsEl = modal.querySelector("#service-tools");
   const whyUsEl = modal.querySelector("#why-us");
   const ctaEl = modal.querySelector("#service-cta");
 
@@ -322,6 +323,23 @@ function openServiceModal(service) {
           </div>
         `).join("")}
       </div>
+    `;
+  }
+
+   // ✅ Fill tools 
+  toolsEl.innerHTML = "";
+  if (service.tools && Array.isArray(service.tools)) {
+    toolsEl.innerHTML = `
+      <h4 class="tools-title">${service.tools_title}</h4>
+      <div class="tools-grid">
+        ${service.tools.map(tool => `
+          <div class="tool-card">
+            <img class="tool-icon" src="${tool.logo}" alt="${tool.title}" />
+            <span>${tool.title}</span>
+          </div>
+          `).join("")}
+          </div>
+          <p class="tools-note">...and other industry-standard tools for professional results</p>
     `;
   }
 
