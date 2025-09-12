@@ -398,18 +398,20 @@ function openCaseModal(study) {
     });
   }
 
-  // Images (static display)
-  const imagesDiv = modal.querySelector("#case-images");
-  imagesDiv.innerHTML = "";
-  if (study.images && study.images.length > 0) {
-    study.images.forEach(img => {
-      imagesDiv.innerHTML += `
-        <div class="case-image mb-3">
-          <img src="${img.url}" alt="${img.caption}" style="width:100%; object-fit:contain;">
-          <p>${img.caption}</p>
-        </div>`;
-    });
-  }
+  // Images (grid display styled like Framer cards)
+const imagesDiv = modal.querySelector("#case-images");
+imagesDiv.innerHTML = "";
+
+if (study.images && study.images.length > 0) {
+  study.images.forEach((img, index) => {
+    imagesDiv.innerHTML += `
+      <div class="case-modal-card card-${index + 1}">
+        <img src="${img.url}" alt="${img.caption}">
+      </div>`;
+  });
+}
+
+
 
   // Show modal
   modal.style.display = "block";
@@ -443,4 +445,3 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (e.target.id === "case-modal") closeCaseModal();
   });
 });
-
